@@ -1,7 +1,3 @@
----
-title: "Welcome to my website!"
----
-
 IAB (U1209/UMR5309)  
 Site Santé - Allée des Alpes  
 38700 La Tronche  
