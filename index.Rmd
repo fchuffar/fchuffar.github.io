@@ -2,4 +2,114 @@
 title: "Welcome to my website!"
 ---
 
-You're up and running!
+
+
+# Jobs
+
+Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
+
+September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
+
+September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)
+
+Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)
+
+October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)
+
+# Training
+
+2017: Epigenetic & High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.
+
+2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l'organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.
+
+2016: Capture de conformation de chromosomes : vers l'analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.
+
+2015: DU in statitics (3/3) at University of Strasbourg. 16-20 November, Strasbourg (67), France.
+
+2015: "R pour le calcul", R avancé et performances. 5-9 October, Aussois (73), France.
+
+2015: DU in statitics (2/3) at University of Strasbourg. 15-19 June Strasbourg (67), France.
+
+2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.
+
+2015: DU in statitics (1/3) at University of Strasbourg. 19-23 January, Strasbourg (67), France.
+
+2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.
+
+2012: Wellcome Trust Advanced Course: In Silico Systems Biology. 23-27 April, Cambridge, UK.
+
+2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.
+
+# Education__
+
+2016: DU degree in statitics at University of Strasbourg,Strasbourg, France.
+
+2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
+
+2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
+
+2003: Maitrise (master's degree) in applied Mathematics at University of Rouen, Rouen, France.
+
+2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
+
+1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.
+
+1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
+
+# Research Publications__
+
+Assigning function to natural allelic variation via dynamic modeling of gene network induction. Richard M, Chuffart F, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan M, Barthelaix A, Springer M, Jost D, Yvert G. Mol Syst Biol. 2018. Jan 15;14(1):e7803.
+
+Exploiting single-cell quantitative data to map genetic variants having probabilistic effects. Chuffart F, Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y and Yvert G. PLOS Genetics. 2016. Volume 12, Issue 8, pages 1-27.
+
+The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution. Fabien Filleton, Florent Chuffart, Muniyandi Nagarajan, Helene Bottin-Duplus, Gael Yvert. Epigenetics & Chromatin. 2015. Jul 31;8:26.
+
+MyLabStocks: a web-application to manage molecular biology materials. Florent Chuffart and Gael Yvert. Yeast. 2014. Volume 31, Issue 5, pages 179-184.
+
+When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System. Eddy Caron, Florent Chuffart, Cédric Tedeschi Future Generation Computer Systems. 2013. 29, 6 1533-1543.
+
+SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process. Florent Chuffart, Nicolas Dumoulin, Thierry Faure, and Guillaume Deffuant. International Journal of Agricultural and Environmental Information Systems. 2010. 1(1) :55-68.
+
+# Other Communications__
+
+The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target. Ekaterina Flin, Florent Chuffart, Sophie Rousseaux, Saadi Khochbin. Cell J (Yakhteh) Volume 19, Supplement 1, Spring 2017
+
+Heterogenety in Carcinogenesis Mechanism (the lung cancer example) Florent Chuffart. Kick-off PITCHER. Lyon, 9 mach 2017.
+
+execo (APP creation deposit). Matthieu Imbert, Laurent Pouilloux, Florent Chuffart. APP. 2015.
+
+A General Method to map Single-cell Probabilistic Trait Loci of the Genome. Quatrièmes Rencontres R, 24-26 June 2015, Grenoble, France.
+
+A General Method to map Single-cell Probabilistic Trait Loci of the Genome. (Short Talk). Quatrièmes Rencontres R, 24-26 June 2015, Grenoble, France.
+
+Functional Genetic Diversity of the Yeast Galactose Network. (Short Talk). CompSysBio, 6-11 April 2015, Aussois, France.
+
+NucleoMiner 2.0: Detecting intra-species quantitative epigenomic variation at single-nucleosome resolution. (Poster). LyonSysBio, 19-21 November 2014, Villeurbanne, France.
+
+Parallel Computing in R using the Bot Package. (Poster). Deuxièmes rencontres R. 27-28 Juin 2013, Lyon, France.
+
+Optimization in a Self-stabilizing Service Discovery Framework for Large Scale Systems. (in Proceedings). Eddy Caron, Florent Chuffart, Anissa Lamani, Franck Petit SSS. 2012. 239-252.
+
+Large scale P2P discovery middleware demonstration. (in Proceedings). Eddy Caron, Florent Chuffart, Haiwu He, Anissa Lamani, Philippe Le Brouster, Olivier Richard IEEE International Conference on Peer-to-Peer Computing (P2P), 1-2 September 2011, Kyoto, Japan. 152-153
+
+Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle. (in Proceedings). Florent Chuffart, Haiwu He RenPar'20, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.
+
+Implementation and Evaluation of a P2P Service Discovery System: Application in a Dynamic Large Scale Computing Infrastructure. (in Proceedings). Caron, E.; Chuffart, F.; Haiwu He; Tedeschi, C. IEEE 11th International Conference on Computer and Information Technology (CIT). 2011. 41-46.
+
+Declarative task delegation in OpenMOLE. (in Proceedings). R Reuillon, F Chuffart, M Leclaire, T Faure, N Dumoulin, D Hill. International Conference on High performance computing and simulation (HPCS). 2010. 55-62.
+
+Applying a Moment Approximation to a bacterial biofilm individual-based model. (in Proceedings). J-D. Mathias, F. Chuffart, N. Mabrouk, and G. Deffuant. In ICCGI '09 : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.
+
+Record & replay: expérimentation d'un service multimodal. (in Proceedings). Antoine Bouyer, Florent Chuffart UbiMob '09 Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.
+
+The Design of a Multimodal Platform: Experimentation of Record & Replay. (in Proceedings). Bouyer, A. ; Chuffart, F. ; Courval, L. Second International Conferences on Advances in Computer-Human Interactions. 2009. 1-6.
+
+Design and Analysis of Computer Experiments with SimExplorer. (in Proceedings). Florent Chuffart, Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume Deffuant. European Simulation and Modelling Conference (ESM2008). 27-29 October 2008, Le Havre, France. 575-577.
+
+Conception d'une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées. (PhD thesis). Florent Chuffart. Université de Caen Basse-Normandie. 2007.
+
+Construction d'une application vocale pour la sélection d'objets à l'aide d'un modèle basé sur les hypergraphes. (in Proceedings). Cyril Bazin, Florent Chuffart, and Jacques Madelaine. 9ème Conférence Internationale sur le Document Numérique. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
+
+Aurora, multimodal messaging framework for ubiquitous web context. (Communication). F. Chuffart, F. Van Gool, and L. Courval. In W3C Ubiquitous Web Workshop. 2006.
+
+Aurora, a framework enabling multimodal interactions. (in Proceedings). Florent Chuffart, Filip Van Gool, and Lionel Courval. In Workshop on International on Multimodal Multiparty Meeting Processing, ACM ICMI Workshop. 7 October 2005, Trento, Italy. 53-585.
