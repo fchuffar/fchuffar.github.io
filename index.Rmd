@@ -56,7 +56,7 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
 
-# Research Publications__
+# Research Publications
 
 Assigning function to natural allelic variation via dynamic modeling of gene network induction. Richard M, Chuffart F, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan M, Barthelaix A, Springer M, Jost D, Yvert G. Mol Syst Biol. 2018. Jan 15;14(1):e7803.
 
