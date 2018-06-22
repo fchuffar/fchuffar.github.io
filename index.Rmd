@@ -44,7 +44,7 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.
 
-# Education__
+# Education
 
 2016: DU degree in statitics at University of Strasbourg,Strasbourg, France.
 
@@ -64,7 +64,7 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 
 Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.
-Emilie Abrahama, Sophie Rousseauxa, Lydiane Agiera, Lise Giorgis-Allemanda, Jörg Tostb, Julien Galineauc, Agnès Hulind, Valérie Sirouxa, Daniel Vaimane, Marie-Aline Charlesf, Barbara Heudef, Anne Forhanf, Joel Schwartzg, Florent Chuffarta, Ekaterina Bourova-Flina, Saadi Khochbina, Rémy Slamaa, Johanna Lepeulea.
+Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, Florent Chuffart, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule.
 Environment International.
 2018.
 ISSN 0160-4120.
@@ -81,7 +81,7 @@ When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to
 
 SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process. Florent Chuffart, Nicolas Dumoulin, Thierry Faure, and Guillaume Deffuant. International Journal of Agricultural and Environmental Information Systems. 2010. 1(1) :55-68.
 
-# Other Communications__
+# Other Communications
 
 The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target. Ekaterina Flin, Florent Chuffart, Sophie Rousseaux, Saadi Khochbin. Cell J (Yakhteh) Volume 19, Supplement 1, Spring 2017
 
