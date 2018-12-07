@@ -64,6 +64,9 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Research Publications
 
+Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.
+Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L, Puthier D, Chuffart F, Bourova-Flin E, Picaud S, Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y, Khochbin S.
+Cell Rep. 2018 Sep 25;24(13):3477-3487.e6.
 
 Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.
 Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, Florent Chuffart, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule.
