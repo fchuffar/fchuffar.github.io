@@ -98,8 +98,6 @@ Heterogenety in Carcinogenesis Mechanism (the lung cancer example) Florent Chuff
 
 execo (APP creation deposit). Matthieu Imbert, Laurent Pouilloux, Florent Chuffart. APP. 2015.
 
-A General Method to map Single-cell Probabilistic Trait Loci of the Genome. Quatrièmes Rencontres R, 24-26 June 2015, Grenoble, France.
-
 A General Method to map Single-cell Probabilistic Trait Loci of the Genome. (Short Talk). Quatrièmes Rencontres R, 24-26 June 2015, Grenoble, France.
 
 Functional Genetic Diversity of the Yeast Galactose Network. (Short Talk). CompSysBio, 6-11 April 2015, Aussois, France.
