@@ -4,14 +4,14 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
 
 
 
-<title></title>
+<title>index.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,23 +19,25 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="site_libs/highlight/textmate.css"
-      type="text/css" />
-<script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -90,10 +92,17 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
+
 
 <style type="text/css">
 /* padding for bootstrap navbar */
@@ -106,7 +115,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -126,6 +134,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -147,19 +192,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -223,7 +326,7 @@ $(document).ready(function () {
 <p>IAB (U1209/UMR5309)<br />
 Site Santé - Allée des Alpes<br />
 38700 La Tronche<br />
-<a href="mailto:florent.chuffart@univ-grenoble-alpes.fr">florent.chuffart@univ-grenoble-alpes.fr</a><br />
+<a href="mailto:florent.chuffart@univ-grenoble-alpes.fr" class="email">florent.chuffart@univ-grenoble-alpes.fr</a><br />
 tel: +33 (0)4 76 54 95 82<br />
 fax: +33 (0)4 76 54 94 25</p>
 <div id="jobs" class="section level1">
@@ -236,22 +339,24 @@ fax: +33 (0)4 76 54 94 25</p>
 </div>
 <div id="training" class="section level1">
 <h1>Training</h1>
+<p>2018: Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research, 10-14 decembre 2018, Aussois (73), France.</p>
+<p>2018 : Biologie intégrative ou biologie des systèmes par Joëlle Henry-Berger, 5-9 novembre 2018, Lyon (69), France.</p>
 <p>2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon (69), France.</p>
 <p>2017: Epigenetic &amp; High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.</p>
 <p>2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.</p>
 <p>2016: Capture de conformation de chromosomes : vers l’analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.</p>
-<p>2015: DU in statitics (3/3) at University of Strasbourg. 16-20 November, Strasbourg (67), France.</p>
+<p>2015: DU in statistics (3/3) at University of Strasbourg. 16-20 November, Strasbourg (67), France.</p>
 <p>2015: “R pour le calcul”, R avancé et performances. 5-9 October, Aussois (73), France.</p>
-<p>2015: DU in statitics (2/3) at University of Strasbourg. 15-19 June Strasbourg (67), France.</p>
+<p>2015: DU in statistics (2/3) at University of Strasbourg. 15-19 June Strasbourg (67), France.</p>
 <p>2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.</p>
-<p>2015: DU in statitics (1/3) at University of Strasbourg. 19-23 January, Strasbourg (67), France.</p>
+<p>2015: DU in statistics (1/3) at University of Strasbourg. 19-23 January, Strasbourg (67), France.</p>
 <p>2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.</p>
 <p>2012: Wellcome Trust Advanced Course: In Silico Systems Biology. 23-27 April, Cambridge, UK.</p>
 <p>2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.</p>
 </div>
 <div id="education" class="section level1">
 <h1>Education</h1>
-<p>2016: DU degree in statitics at University of Strasbourg,Strasbourg, France.</p>
+<p>2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.</p>
 <p>2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.</p>
 <p>2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.</p>
 <p>2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.</p>
@@ -272,7 +377,9 @@ fax: +33 (0)4 76 54 94 25</p>
 </div>
 <div id="other-communications" class="section level1">
 <h1>Other Communications</h1>
+<p>ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.</p>
 <p>Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.</p>
+<p>Intégration de données multi-omiques: RGCCA, Mix Omics. Florent Chuffart. Journée thematique ’statistique &amp; genomique’, 12 octobre 2018, Paris.</p>
 <p>Histone variants: critical determinants in tumour heterogeneity. Wang T, Chuffart F, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. Front Med. 2018 Oct 2. doi: 10.1007/s11684-018-0667-3.</p>
 <p>The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target. Ekaterina Flin, Florent Chuffart, Sophie Rousseaux, Saadi Khochbin. Cell J (Yakhteh) Volume 19, Supplement 1, Spring 2017</p>
 <p>Heterogenety in Carcinogenesis Mechanism (the lung cancer example) Florent Chuffart. Kick-off PITCHER. Lyon, 9 mach 2017.</p>
@@ -304,9 +411,13 @@ fax: +33 (0)4 76 54 94 25</p>
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
+
 
 </script>
 
@@ -315,7 +426,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

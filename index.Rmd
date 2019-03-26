@@ -22,23 +22,27 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Training
 
+2018: Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research, 10-14 decembre 2018, Aussois (73), France.
+
+2018 : Biologie intégrative ou biologie des systèmes par Joëlle Henry-Berger,  5-9 novembre 2018, Lyon (69), France.
+
 2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon (69), France.
 
 2017: Epigenetic & High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.
 
-2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l'organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.
+2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.
 
-2016: Capture de conformation de chromosomes : vers l'analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.
+2016: Capture de conformation de chromosomes : vers l’analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.
 
-2015: DU in statitics (3/3) at University of Strasbourg. 16-20 November, Strasbourg (67), France.
+2015: DU in statistics (3/3) at University of Strasbourg. 16-20 November, Strasbourg (67), France.
 
 2015: "R pour le calcul", R avancé et performances. 5-9 October, Aussois (73), France.
 
-2015: DU in statitics (2/3) at University of Strasbourg. 15-19 June Strasbourg (67), France.
+2015: DU in statistics (2/3) at University of Strasbourg. 15-19 June Strasbourg (67), France.
 
 2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.
 
-2015: DU in statitics (1/3) at University of Strasbourg. 19-23 January, Strasbourg (67), France.
+2015: DU in statistics (1/3) at University of Strasbourg. 19-23 January, Strasbourg (67), France.
 
 2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.
 
@@ -48,13 +52,13 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Education
 
-2016: DU degree in statitics at University of Strasbourg,Strasbourg, France.
+2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.
 
 2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
 
 2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
 
-2003: Maitrise (master's degree) in applied Mathematics at University of Rouen, Rouen, France.
+2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.
 
 2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
 
@@ -88,7 +92,12 @@ SimExplorer : Programming Experimental Designs on Models and Managing Quality of
 
 # Other Communications
 
-Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l'analyse des données d'exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.
+ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.
+
+Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.
+
+Intégration de données multi-omiques: RGCCA, Mix Omics. Florent Chuffart. Journée thematique ’statistique & genomique’, 12 octobre 2018, Paris.
+
 
 Histone variants: critical determinants in tumour heterogeneity. Wang T, Chuffart F, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. Front Med. 2018 Oct 2. doi: 10.1007/s11684-018-0667-3. 
 
@@ -110,23 +119,23 @@ Optimization in a Self-stabilizing Service Discovery Framework for Large Scale S
 
 Large scale P2P discovery middleware demonstration. (in Proceedings). Eddy Caron, Florent Chuffart, Haiwu He, Anissa Lamani, Philippe Le Brouster, Olivier Richard IEEE International Conference on Peer-to-Peer Computing (P2P), 1-2 September 2011, Kyoto, Japan. 152-153
 
-Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle. (in Proceedings). Florent Chuffart, Haiwu He RenPar'20, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.
+Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle. (in Proceedings). Florent Chuffart, Haiwu He RenPar’20, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.
 
 Implementation and Evaluation of a P2P Service Discovery System: Application in a Dynamic Large Scale Computing Infrastructure. (in Proceedings). Caron, E.; Chuffart, F.; Haiwu He; Tedeschi, C. IEEE 11th International Conference on Computer and Information Technology (CIT). 2011. 41-46.
 
 Declarative task delegation in OpenMOLE. (in Proceedings). R Reuillon, F Chuffart, M Leclaire, T Faure, N Dumoulin, D Hill. International Conference on High performance computing and simulation (HPCS). 2010. 55-62.
 
-Applying a Moment Approximation to a bacterial biofilm individual-based model. (in Proceedings). J-D. Mathias, F. Chuffart, N. Mabrouk, and G. Deffuant. In ICCGI '09 : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.
+Applying a Moment Approximation to a bacterial biofilm individual-based model. (in Proceedings). J-D. Mathias, F. Chuffart, N. Mabrouk, and G. Deffuant. In ICCGI ’09 : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.
 
-Record & replay: expérimentation d'un service multimodal. (in Proceedings). Antoine Bouyer, Florent Chuffart UbiMob '09 Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.
+Record & replay: expérimentation d’un service multimodal. (in Proceedings). Antoine Bouyer, Florent Chuffart UbiMob ’09 Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.
 
 The Design of a Multimodal Platform: Experimentation of Record & Replay. (in Proceedings). Bouyer, A. ; Chuffart, F. ; Courval, L. Second International Conferences on Advances in Computer-Human Interactions. 2009. 1-6.
 
 Design and Analysis of Computer Experiments with SimExplorer. (in Proceedings). Florent Chuffart, Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume Deffuant. European Simulation and Modelling Conference (ESM2008). 27-29 October 2008, Le Havre, France. 575-577.
 
-Conception d'une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées. (PhD thesis). Florent Chuffart. Université de Caen Basse-Normandie. 2007.
+Conception d’une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées. (PhD thesis). Florent Chuffart. Université de Caen Basse-Normandie. 2007.
 
-Construction d'une application vocale pour la sélection d'objets à l'aide d'un modèle basé sur les hypergraphes. (in Proceedings). Cyril Bazin, Florent Chuffart, and Jacques Madelaine. 9ème Conférence Internationale sur le Document Numérique. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
+Construction d’une application vocale pour la sélection d’objets à l’aide d’un modèle basé sur les hypergraphes. (in Proceedings). Cyril Bazin, Florent Chuffart, and Jacques Madelaine. 9ème Conférence Internationale sur le Document Numérique. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
 
 Aurora, multimodal messaging framework for ubiquitous web context. (Communication). F. Chuffart, F. Van Gool, and L. Courval. In W3C Ubiquitous Web Workshop. 2006.
 
