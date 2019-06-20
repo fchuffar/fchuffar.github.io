@@ -92,6 +92,8 @@ SimExplorer : Programming Experimental Designs on Models and Managing Quality of
 
 # Other Communications
 
+Snakemake as workflow engine. Florent Chuffart. Python working session. 20 june 2019, Grenoble.
+
 ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.
 
 Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.
