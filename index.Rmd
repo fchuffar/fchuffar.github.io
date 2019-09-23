@@ -93,6 +93,8 @@ SimExplorer : Programming Experimental Designs on Models and Managing Quality of
 
 # Other Communications
 
+Analysis of RNA-seq data. Florent Chuffart. Journée thematique ’statistique & genomique’, 19 september 2019, Paris.
+
 Snakemake as workflow engine. Florent Chuffart. Python working session. 20 june 2019, Grenoble.
 
 ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.
