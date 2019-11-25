@@ -93,6 +93,9 @@ SimExplorer : Programming Experimental Designs on Models and Managing Quality of
 
 # Other Communications
 
+Maternal exposure to cigarette smoking induces immediate and durable changes in placental DNA methylation affecting enhancer and imprinting control regions
+Sophie Rousseaux, Emie Seyve, Florent Chuffart, Ekaterina Bourova-Flin, MeriemBenmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, RémySlama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule. bioRxiv 852186; doi: https://doi.org/10.1101/852186
+
 Analysis of RNA-seq data. Florent Chuffart. Journée thematique ’statistique & genomique’, 19 september 2019, Paris.
 
 Snakemake as workflow engine. Florent Chuffart. Python working session. 20 june 2019, Grenoble.
