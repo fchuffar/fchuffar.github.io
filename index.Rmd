@@ -95,6 +95,10 @@ SimExplorer : Programming Experimental Designs on Models and Managing Quality of
 
 # Other Communications
 
+Lysine Methyltransferases Signaling: Histones are Just the Tip of the Iceberg.
+Lukinović V, Casanova AG, Roth GS, Chuffart F, Reynoird N.
+Curr Protein Pept Sci. 2020 Jan 1
+
 Maternal exposure to cigarette smoking induces immediate and durable changes in placental DNA methylation affecting enhancer and imprinting control regions
 Sophie Rousseaux, Emie Seyve, Florent Chuffart, Ekaterina Bourova-Flin, MeriemBenmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, RémySlama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule. bioRxiv 852186; doi: https://doi.org/10.1101/852186
 
