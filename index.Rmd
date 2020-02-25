@@ -7,8 +7,6 @@ fax: +33 (0)4 76 54 94 25
 
 
 
-**Save the date:** November 29, 2019, Aussois (France), Health data challenge (2nd edition), Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer.  https://tinyurl.com/hadaca2019
-
 # Jobs
 
 Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
@@ -71,6 +69,10 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Research Publications
 
+Extracellular Vesicles From Myelodysplastic Mesenchymal Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem Cells Through miRNA Transfer. 
+Mathieu Meunier, Audrey Guttin, Sarah Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay, Florent Chuffart, Sophie Rousseaux, Quentin Testard, Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park. 
+Leukemia. 2020
+
 Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.
 Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L, Puthier D, Chuffart F, Bourova-Flin E, Picaud S, Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y, Khochbin S.
 Cell Rep. 2018 Sep 25;24(13):3477-3487.e6.
@@ -106,14 +108,15 @@ Analysis of RNA-seq data. Florent Chuffart. Journée thematique ’statistique &
 
 Snakemake as workflow engine. Florent Chuffart. Python working session. 20 june 2019, Grenoble.
 
+Histone variants: critical determinants in tumour heterogeneity. Wang T, Chuffart F, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. 
+Front Med 13 (3), 289-297.  Jun 2019.
+
 ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.
 
 Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.
 
 Intégration de données multi-omiques: RGCCA, Mix Omics. Florent Chuffart. Journée thematique ’statistique & genomique’, 12 octobre 2018, Paris.
 
-
-Histone variants: critical determinants in tumour heterogeneity. Wang T, Chuffart F, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. Front Med. 2018 Oct 2. doi: 10.1007/s11684-018-0667-3. 
 
 *Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois.*
 Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, Florent Chuffart, Olivier François, Keurcien Luu, Florian Privé, Magali Richard.
