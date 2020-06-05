@@ -69,6 +69,11 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Research Publications
 
+PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer
+Magali Richard, Clémentine Decamps, Florent Chuffart, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost
+PLoS Comput Biol, 2020.
+
+
 RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.
 Naghmeh Hoghoughi Sophie Barral Sandrine Curtet, Florent Chuffart, Guillaume Charbonnier, Denis Puthier, Thierry Buchou, Sophie Rousseaux and Saadi Khochbin.
 Cells, 2020.
