@@ -250,7 +250,7 @@ Florent Chuffart. Université de Caen Basse-Normandie. 2007.
 Cyril Bazin, **Florent Chuffart**, and Jacques Madelaine. 
 **9ème Conférence Internationale sur le Document Numérique**. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
 
-**Aurora, multimodal messaging framework for ubiquitous web context.** (Communication). 
+*Aurora, multimodal messaging framework for ubiquitous web context.* (Communication). 
 **F. Chuffart**, F. Van Gool, and L. Courval. 
 **W3C Ubiquitous Web Workshop**, 2006.
 
