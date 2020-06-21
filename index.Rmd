@@ -65,117 +65,197 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Research Publications
 
-PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer
-Magali Richard, Clémentine Decamps, Florent Chuffart, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost
-PLoS Comput Biol, 2020.
+[12]
+*PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
+Magali Richard, Clémentine Decamps, **Florent Chuffart**, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost.
+**PLoS Comput Biol**, 2020.
 
-RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.
-Naghmeh Hoghoughi Sophie Barral Sandrine Curtet, Florent Chuffart, Guillaume Charbonnier, Denis Puthier, Thierry Buchou, Sophie Rousseaux, Saadi Khochbin.
-Cells, 2020.
+[11]
+*RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.*
+Naghmeh Hoghoughi Sophie Barral Sandrine Curtet, **Florent Chuffart**, Guillaume Charbonnier, Denis Puthier, Thierry Buchou, Sophie Rousseaux, Saadi Khochbin.
+**Cells**, 2020.
 
-Extracellular Vesicles From Myelodysplastic Mesenchymal Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem Cells Through miRNA Transfer. 
-Mathieu Meunier, Audrey Guttin, Sarah Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay, Florent Chuffart, Sophie Rousseaux, Quentin Testard, Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park. 
-Leukemia, 2020.
+[10]
+*Extracellular Vesicles From Myelodysplastic Mesenchymal Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem Cells Through miRNA Transfer.* 
+Mathieu Meunier, Audrey Guttin, Sarah Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay, **Florent Chuffart**, Sophie Rousseaux, Quentin Testard, Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park. 
+**Leukemia**, 2020.
 
-Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software
-Clémentine Decamps, Florian Privé, Raphael Bacher, Daniel Jost, Arthur Waguet, HADACA consortium, Eugene Andres Houseman, Eugene Lurie, Pavlo Lutsik, Aleksandar Milosavljevic, Michael Scherer, Michael G. B. Blum Magali Richard.
-BMC Bioinformatics, 2020.
+[9]
+*Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software.*
+Clémentine Decamps, Florian Privé, Raphael Bacher, Daniel Jost, Arthur Waguet, **HADACA consortium**, Eugene Andres Houseman, Eugene Lurie, Pavlo Lutsik, Aleksandar Milosavljevic, Michael Scherer, Michael G. B. Blum Magali Richard.
+**BMC Bioinformatics**, 2020.
 
-Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.
-Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L, Puthier D, Chuffart F, Bourova-Flin E, Picaud S, Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y, Khochbin S.
-Cell Rep, 2018.
+[8]
+*Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.*
+Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L, Puthier D, **Chuffart F**, Bourova-Flin E, Picaud S, Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y, Khochbin S.
+**Cell Rep**, 2018.
 
-Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.
-Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, Florent Chuffart, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule.
-Environment International, 2018.
+[7]
+*Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.*
+Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, **Florent Chuffart**, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule.
+**Environment International**, 2018.
 
-Assigning function to natural allelic variation via dynamic modeling of gene network induction. 
-Richard M, Chuffart F, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan M, Barthelaix A, Springer M, Jost D, Yvert G. 
-Mol Syst Biol, 2018.
+[6]
+*Assigning function to natural allelic variation via dynamic modeling of gene network induction.*
+Richard M, **Chuffart F**, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan M, Barthelaix A, Springer M, Jost D, Yvert G. 
+**Mol Syst Biol**, 2018.
 
-Exploiting single-cell quantitative data to map genetic variants having probabilistic effects. 
-Chuffart F, Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y, Yvert G. 
-PLOS Genetics, 2016.
+[5]
+*Exploiting single-cell quantitative data to map genetic variants having probabilistic effects.* 
+**Chuffart F**, Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y, Yvert G. 
+**PLOS Genetics**, 2016.
 
-The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution. 
-Fabien Filleton, Florent Chuffart, Muniyandi Nagarajan, Helene Bottin-Duplus, Gael Yvert. 
-Epigenetics & Chromatin, 2015.
+[4]
+*The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution.* 
+Fabien Filleton, **Florent Chuffart**, Muniyandi Nagarajan, Helene Bottin-Duplus, Gael Yvert. 
+**Epigenetics and Chromatin**, 2015.
 
-MyLabStocks: a web-application to manage molecular biology materials. 
-Florent Chuffart and Gael Yvert. 
-Yeast, 2014. 
+[3]
+*MyLabStocks: a web-application to manage molecular biology materials.*
+**Florent Chuffart** and Gael Yvert. 
+**Yeast**, 2014. 
 
-When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System. 
-Eddy Caron, Florent Chuffart, Cédric Tedeschi 
-Future Generation Computer Systems, 2013.
+[2]
+*When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System.*
+Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
+**Future Generation Computer Systems**, 2013.
 
-SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process. 
-Florent Chuffart, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant. 
-International Journal of Agricultural and Environmental Information Systems, 2010.
+[1]
+ *SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process.*
+**Florent Chuffart**, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant. 
+**International Journal of Agricultural and Environmental Information Systems**, 2010.
+
+# Software Production
+
+**ector**: An R package that detects ectopic gene expression in cancer https://github.com/mpetrier/ector
+
+**deeptoolsr**: DeepTools binding for R. https://github.com/fchuffar/deeptoolsr
+
+**penda**: An R package that performs personalized differential analysis of omics data. https://github.com/bcm-uga/penda
+
+**dmprocr**: a set of usefull functions organized around a workflow and performing differential methylation profiles clustering. https://github.com/bcm–uga/dmprocr
+
+**epimedtools**: An package provides set of useful statistical functions. This package rely on 'GEOquery' and 'affy' packages, R Reference Classes, caching features and memoisation to simplify, homogenize and speed up multi–omic analysis. https://github.com/fchuffar/epimedtools
+
+**methmybeachup**: An package provides a set of functions allowing to easily convolves and vizualise methylome signal across genes and CpG islands. https://github.com/fchuffar/methmybeachup
+
+**BoT**: (stands for Bag of Tasks) is an R package allowing to distribute independent tasks over many cores and many computing nodes. https://github.com/fchuffar/bot
+
+**ptlmapper**:  package contains functions that are used to map single–cell Probabilistic Trait Loci (scPTL). The principle of scPTL mapping is to consider a distribution of single–cell traits as the phenotype of a (multicellular) individual, to acquire this phenotype in many individuals, and to scan the genome for DNA variants that change this phenotype. https://github.com/fchuffar/ptlmapper
 
 # Other Communications
 
-Lysine Methyltransferases Signaling: Histones are Just the Tip of the Iceberg.
-Lukinović V, Casanova AG, Roth GS, Chuffart F, Reynoird N.
-Curr Protein Pept Sci. 2020 Jan 1
+*Lysine Methyltransferases Signaling: Histones are Just the Tip of the Iceberg.*
+Lukinović V, Casanova AG, Roth GS, **Chuffart F**, Reynoird N.
+**Curr Protein Pept Sci.** 2020 Jan 1
 
-Maternal exposure to cigarette smoking induces immediate and durable changes in placental DNA methylation affecting enhancer and imprinting control regions
-Sophie Rousseaux, Emie Seyve, Florent Chuffart, Ekaterina Bourova-Flin, MeriemBenmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, RémySlama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule. bioRxiv 852186; doi: https://doi.org/10.1101/852186
+*Maternal exposure to cigarette smoking induces immediate and durable changes in placental DNA methylation affecting enhancer and imprinting control regions.*
+Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, MeriemBenmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, RémySlama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule. 
+**bioRxiv** 852186; doi: https://doi.org/10.1101/852186
 
-Analysis of RNA-seq data. Florent Chuffart. Journée thematique ’statistique & genomique’, 19 september 2019, Paris.
+*Analysis of RNA-seq data.* 
+Florent Chuffart. 
+**Journée thematique ’statistique & genomique’**, 19 september 2019, Paris.
 
-Snakemake as workflow engine. Florent Chuffart. Python working session. 20 june 2019, Grenoble.
+*Snakemake as workflow engine*. 
+Florent Chuffart. 
+**Python working session**. 20 june 2019, Grenoble.
 
-Histone variants: critical determinants in tumour heterogeneity. Wang T, Chuffart F, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. 
-Front Med 13 (3), 289-297.  Jun 2019.
+*Histone variants: critical determinants in tumour heterogeneity.* 
+Wang T, **Chuffart F**, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. 
+**Front Med** 13 (3), 289-297.  Jun 2019.
 
-ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype. Daphné Vannier et al. Poster. Developmental and cell biology of the future conference, 27-29 march 2019, Paris.
+*ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype.* 
+Daphné Vannier et al. Poster. 
+**Developmental and cell biology of the future conference**, 27-29 march 2019, Paris.
 
-Utilisation des ressources CIMENT dans le cadre du projet epimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome. Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, Florent Chuffart. JCAD 2018, 24-26 october, Lyon (69), France.
+Utilisation des ressources CIMENT dans le cadre du projet e*pimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome.* 
+Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, **Florent Chuffart.** 
+**JCAD** 2018, 24-26 october, Lyon (69), France.
 
-Intégration de données multi-omiques: RGCCA, Mix Omics. Florent Chuffart. Journée thematique ’statistique & genomique’, 12 octobre 2018, Paris.
+*Intégration de données multi-omiques: RGCCA, Mix Omics.* 
+Florent Chuffart. 
+**Journée thematique ’statistique & genomique’**, 12 octobre 2018, Paris.
 
 
 *Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois.*
-Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, Florent Chuffart, Olivier François, Keurcien Luu, Florian Privé, Magali Richard.
+Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, **Florent Chuffart**, Olivier François, Keurcien Luu, Florian Privé, Magali Richard.
 **CFIES2017**, septembre 2017, Grenoble, France. https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf
 
-The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target. Ekaterina Flin, Florent Chuffart, Sophie Rousseaux, Saadi Khochbin. Cell J (Yakhteh) Volume 19, Supplement 1, Spring 2017
+*The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target.* 
+Ekaterina Flin, **Florent Chuffart**, Sophie Rousseaux, Saadi Khochbin. 
+**Cell J** (Yakhteh) Volume 19, Supplement 1, Spring 2017
 
-Heterogenety in Carcinogenesis Mechanism (the lung cancer example) Florent Chuffart. Kick-off PITCHER. Lyon, 9 mach 2017.
+*Heterogenety in Carcinogenesis Mechanism (the lung cancer example)* 
+Florent Chuffart. 
+**Kick-off PITCHER**. Lyon, 9 mach 2017.
 
-execo (APP creation deposit). Matthieu Imbert, Laurent Pouilloux, Florent Chuffart. APP. 2015.
+*execo* (APP creation deposit). Matthieu Imbert, Laurent Pouilloux, **Florent Chuffart.** APP. 2015.
 
-A General Method to map Single-cell Probabilistic Trait Loci of the Genome. (Short Talk). Quatrièmes Rencontres R, 24-26 June 2015, Grenoble, France.
+*A General Method to map Single-cell Probabilistic Trait Loci of the Genome.* (Short Talk). 
+Florent Chuffart.
+**Quatrièmes Rencontres R**, 24-26 June 2015, Grenoble, France.
 
-Functional Genetic Diversity of the Yeast Galactose Network. (Short Talk). CompSysBio, 6-11 April 2015, Aussois, France.
+*Functional Genetic Diversity of the Yeast Galactose Network.* (Short Talk). 
+Florent Chuffart.
+**CompSysBio**, 6-11 April 2015, Aussois, France.
 
-NucleoMiner 2.0: Detecting intra-species quantitative epigenomic variation at single-nucleosome resolution. (Poster). LyonSysBio, 19-21 November 2014, Villeurbanne, France.
+*NucleoMiner 2.0: Detecting intra-species quantitative epigenomic variation at single-nucleosome resolution.*
+**Florent Chuffart**, Gael Yvert. (Poster). 
+**LyonSysBio**, 19-21 November 2014, Villeurbanne, France.
 
-Parallel Computing in R using the Bot Package. (Poster). Deuxièmes rencontres R. 27-28 Juin 2013, Lyon, France.
+*Parallel Computing in R using the Bot Package.* 
+Florent Chuffart (Poster). 
+**Deuxièmes rencontres R**. 27-28 Juin 2013, Lyon, France.
 
-Optimization in a Self-stabilizing Service Discovery Framework for Large Scale Systems. (in Proceedings). Eddy Caron, Florent Chuffart, Anissa Lamani, Franck Petit SSS. 2012. 239-252.
+*Optimization in a Self-stabilizing Service Discovery Framework for Large Scale Systems.* (in Proceedings). 
+Eddy Caron, **Florent Chuffart**, Anissa Lamani, Franck Petit.
+**SSS**. 2012. 239-252.
 
-Large scale P2P discovery middleware demonstration. (in Proceedings). Eddy Caron, Florent Chuffart, Haiwu He, Anissa Lamani, Philippe Le Brouster, Olivier Richard IEEE International Conference on Peer-to-Peer Computing (P2P), 1-2 September 2011, Kyoto, Japan. 152-153
+*Large scale P2P discovery middleware demonstration.* (in Proceedings). Eddy Caron, **Florent Chuffart**, Haiwu He, Anissa Lamani, Philippe Le Brouster, Olivier Richard.
+**IEEE International Conference on Peer-to-Peer Computing** (P2P), 1-2 September 2011, Kyoto, Japan. 152-153
 
-Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle. (in Proceedings). Florent Chuffart, Haiwu He RenPar’20, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.
+*Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle.* (in Proceedings). 
+**Florent Chuffart**, Haiwu He.
+**RenPar’20**, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.
 
-Implementation and Evaluation of a P2P Service Discovery System: Application in a Dynamic Large Scale Computing Infrastructure. (in Proceedings). Caron, E.; Chuffart, F.; Haiwu He; Tedeschi, C. IEEE 11th International Conference on Computer and Information Technology (CIT). 2011. 41-46.
+*Implementation and Evaluation of a P2P Service Discovery System: Application in a Dynamic Large Scale Computing Infrastructure.* (in Proceedings). 
+Caron, E.; **Chuffart, F.**; Haiwu He; Tedeschi, C. 
+**IEEE 11th International Conference on Computer and Information Technology** (CIT). 2011. 41-46.
 
-Declarative task delegation in OpenMOLE. (in Proceedings). R Reuillon, F Chuffart, M Leclaire, T Faure, N Dumoulin, D Hill. International Conference on High performance computing and simulation (HPCS). 2010. 55-62.
+*Declarative task delegation in OpenMOLE.* (in Proceedings). 
+R Reuillon, **F Chuffart**, M Leclaire, T Faure, N Dumoulin, D Hill. 
+**International Conference on High performance computing and simulation** (HPCS). 2010. 55-62.
 
-Applying a Moment Approximation to a bacterial biofilm individual-based model. (in Proceedings). J-D. Mathias, F. Chuffart, N. Mabrouk, and G. Deffuant. In ICCGI ’09 : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.
+*Applying a Moment Approximation to a bacterial biofilm individual-based model.* (in Proceedings). 
+J-D. Mathias, **F. Chuffart**, N. Mabrouk, and G. Deffuant. 
+**ICCGI 2009** : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.
 
-Record & replay: expérimentation d’un service multimodal. (in Proceedings). Antoine Bouyer, Florent Chuffart UbiMob ’09 Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.
+*Record & replay: expérimentation d’un service multimodal.* (in Proceedings). 
+Antoine Bouyer, **Florent Chuffart**.
+**UbiMob ’09** Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.
 
-The Design of a Multimodal Platform: Experimentation of Record & Replay. (in Proceedings). Bouyer, A. ; Chuffart, F. ; Courval, L. Second International Conferences on Advances in Computer-Human Interactions. 2009. 1-6.
+*The Design of a Multimodal Platform: Experimentation of Record & Replay.* (in Proceedings). 
+Bouyer, A. ; **Chuffart, F.** ; Courval, L. 
+**Second International Conferences on Advances in Computer-Human Interactions**. 2009. 1-6.
 
-Design and Analysis of Computer Experiments with SimExplorer. (in Proceedings). Florent Chuffart, Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume Deffuant. European Simulation and Modelling Conference (ESM2008). 27-29 October 2008, Le Havre, France. 575-577.
+*Design and Analysis of Computer Experiments with SimExplorer.* (in Proceedings). 
+**Florent Chuffart**, Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume Deffuant. 
+**European Simulation and Modelling Conference** (ESM2008). 27-29 October 2008, Le Havre, France. 575-577.
 
-Conception d’une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées. (PhD thesis). Florent Chuffart. Université de Caen Basse-Normandie. 2007.
+*Conception d’une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées.* (PhD thesis). 
+Florent Chuffart. Université de Caen Basse-Normandie. 2007.
 
-Construction d’une application vocale pour la sélection d’objets à l’aide d’un modèle basé sur les hypergraphes. (in Proceedings). Cyril Bazin, Florent Chuffart, and Jacques Madelaine. 9ème Conférence Internationale sur le Document Numérique. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
+*Construction d’une application vocale pour la sélection d’objets à l’aide d’un modèle basé sur les hypergraphes.* (in Proceedings). 
+Cyril Bazin, **Florent Chuffart**, and Jacques Madelaine. 
+**9ème Conférence Internationale sur le Document Numérique**. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.
 
-Aurora, multimodal messaging framework for ubiquitous web context. (Communication). F. Chuffart, F. Van Gool, and L. Courval. In W3C Ubiquitous Web Workshop. 2006.
+**Aurora, multimodal messaging framework for ubiquitous web context.** (Communication). 
+**F. Chuffart**, F. Van Gool, and L. Courval. 
+**W3C Ubiquitous Web Workshop**, 2006.
 
-Aurora, a framework enabling multimodal interactions. (in Proceedings). Florent Chuffart, Filip Van Gool, and Lionel Courval. In Workshop on International on Multimodal Multiparty Meeting Processing, ACM ICMI Workshop. 7 October 2005, Trento, Italy. 53-585.
+*Aurora, a framework enabling multimodal interactions.* (in Proceedings). 
+**Florent Chuffart**, Filip Van Gool, and Lionel Courval. 
+In Workshop on International on Multimodal Multiparty Meeting Processing, ACM **ICMI Workshop**. 7 October 2005, Trento, Italy. 53-585.
+
+
