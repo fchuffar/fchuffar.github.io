@@ -6,63 +6,6 @@ tel: +33 (0)4 76 54 95 82
 fax: +33 (0)4 76 54 94 25  
 
 
-
-# Jobs
-
-Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
-
-September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
-
-September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)
-
-Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)
-
-October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)
-
-# Training
-
-2019: Health data challenge (2nd edition), Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer. November 29, 2019, Aussois (France), https://cancer-heterogeneity.github.io/data_challenges.html
-
-2018: Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research, 10-14 decembre 2018, Aussois (73), France.
-
-2018 : Biologie intégrative ou biologie des systèmes par Joëlle Henry-Berger,  5-9 novembre 2018, Lyon (69), France.
-
-2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon (69), France.
-
-2017: Epigenetic & High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.
-
-2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.
-
-2016: Capture de conformation de chromosomes : vers l’analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.
-
-2015: DU in statistics at University of Strasbourg. 19-23 January, 15-19 June, 16-20 November, Strasbourg (67), France.
-
-2015: "R pour le calcul", R avancé et performances. 5-9 October, Aussois (73), France.
-
-2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.
-
-2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.
-
-2012: Wellcome Trust Advanced Course: In Silico Systems Biology. 23-27 April, Cambridge, UK.
-
-2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.
-
-# Education
-
-2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.
-
-2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
-
-2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
-
-2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.
-
-2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
-
-1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.
-
-1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
-
 # Research Publications
 
 [12]
@@ -125,6 +68,8 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 **Florent Chuffart**, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant. 
 **International Journal of Agricultural and Environmental Information Systems**, 2010.
 
+
+
 # Software Production
 
 **ector**: An R package that detects ectopic gene expression in cancer https://github.com/mpetrier/ector
@@ -142,6 +87,68 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 **BoT**: (stands for Bag of Tasks) is an R package allowing to distribute independent tasks over many cores and many computing nodes. https://github.com/fchuffar/bot
 
 **ptlmapper**:  package contains functions that are used to map single–cell Probabilistic Trait Loci (scPTL). The principle of scPTL mapping is to consider a distribution of single–cell traits as the phenotype of a (multicellular) individual, to acquire this phenotype in many individuals, and to scan the genome for DNA variants that change this phenotype. https://github.com/fchuffar/ptlmapper
+
+
+
+
+# Training
+
+2019: Health data challenge (2nd edition), Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer. November 29, 2019, Aussois (France), https://cancer-heterogeneity.github.io/data_challenges.html
+
+2018: Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research, 10-14 decembre 2018, Aussois (73), France.
+
+2018 : Biologie intégrative ou biologie des systèmes par Joëlle Henry-Berger,  5-9 novembre 2018, Lyon (69), France.
+
+2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon (69), France.
+
+2017: Epigenetic & High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.
+
+2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.
+
+2016: Capture de conformation de chromosomes : vers l’analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.
+
+2015: DU in statistics at University of Strasbourg. 19-23 January, 15-19 June, 16-20 November, Strasbourg (67), France.
+
+2015: "R pour le calcul", R avancé et performances. 5-9 October, Aussois (73), France.
+
+2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.
+
+2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.
+
+2012: Wellcome Trust Advanced Course: In Silico Systems Biology. 23-27 April, Cambridge, UK.
+
+2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.
+
+
+
+
+# Jobs
+
+Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
+
+September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
+
+September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)
+
+Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)
+
+October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)
+
+# Education
+
+2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.
+
+2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
+
+2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
+
+2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.
+
+2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
+
+1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.
+
+1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
 
 # Other Communications
 
