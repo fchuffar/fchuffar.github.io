@@ -8,6 +8,26 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+[16]
+*CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
+Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Planus, Sandra manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert.
+**Angiogenesis**, *in Revision*,
+
+[15]
+*Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.*
+Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, **Florent Chuffart**, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi, Saadi Khochbin.
+**Cell Reports**, *in Revision*,
+
+[14]
+*Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
+Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, **Florent Chuffart**, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
+**Frontiers in Medicine**, *in Revision*,
+
+[13]
+*The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.*
+Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laure Vitte, **Florent Chuffart**, Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. 
+**British Journal of Cancer**, *in Revision*,
+
 [12]
 *PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
 Magali Richard, Clémentine Decamps, **Florent Chuffart**, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost.
@@ -72,6 +92,16 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 # Software Production
 
+**dmethr**: Hunting DNA methylation repression of transcriptional activity and its reactivation in a demethylating context https://github.com/fchuffar/dmethr
+
+**methepic_map**: An R script that build a dictionary of probes according to array annotations https://github.com/fchuffar/methepic_map
+
+**pipeline_mnase**: A set of scripts that orchestrate the analysis of MNase-Seq and ChIP-Seq data https://github.com/fchuffar/pipeline_mnase
+
+**pipeline_rrbs**: A set of scripts that orchestrate the analysis of RRBS data https://github.com/fchuffar/pipeline_rrbs
+
+**ectopy**: An Python package that detects ectopic gene expression in cancer https://github.com/epimed/ectopy
+
 **ector**: An R package that detects ectopic gene expression in cancer https://github.com/mpetrier/ector
 
 **deeptoolsr**: DeepTools binding for R. https://github.com/fchuffar/deeptoolsr
@@ -92,6 +122,8 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 
 # Training
+
+2020: Single Cell: Génomique de la cellule unique. 8-9 octobre 2020, Lyon (69), France.
 
 2019: Health data challenge (2nd edition), Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer. November 29, 2019, Aussois (France), https://cancer-heterogeneity.github.io/data_challenges.html
 
