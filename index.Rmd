@@ -8,25 +8,31 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
-[16]
+[17]
 *CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
 Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Planus, Sandra manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert.
 **Angiogenesis**, *in Revision*,
 
-[15]
+[16]
 *Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.*
 Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, **Florent Chuffart**, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi, Saadi Khochbin.
 **Cell Reports**, *in Revision*,
 
-[14]
+[15]
 *Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
 Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, **Florent Chuffart**, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
 **Frontiers in Medicine**, *in Revision*,
 
-[13]
+[14]
 *The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.*
 Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laure Vitte, **Florent Chuffart**, Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. 
 **British Journal of Cancer**, *in Revision*,
+
+[13]
+*Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.*
+Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, Meriem Benmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, Remy Slama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule, EDEN Mother-Child Cohort Study Group.
+**BMC Med**, 2020.
+
 
 [12]
 *PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
@@ -93,6 +99,8 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 # Software Production
 
 **dmethr**: Hunting DNA methylation repression of transcriptional activity and its reactivation in a demethylating context https://github.com/fchuffar/dmethr
+
+**medepir**: DNA MEthylation DEconvolution PIpeline in R https://github.com/bcm-uga/medepir
 
 **methepic_map**: An R script that build a dictionary of probes according to array annotations https://github.com/fchuffar/methepic_map
 
@@ -187,10 +195,6 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 *Lysine Methyltransferases Signaling: Histones are Just the Tip of the Iceberg.*
 Lukinović V, Casanova AG, Roth GS, **Chuffart F**, Reynoird N.
 **Curr Protein Pept Sci.** 2020 Jan 1
-
-*Maternal exposure to cigarette smoking induces immediate and durable changes in placental DNA methylation affecting enhancer and imprinting control regions.*
-Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, MeriemBenmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, RémySlama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule. 
-**bioRxiv** 852186; doi: https://doi.org/10.1101/852186
 
 *Analysis of RNA-seq data.* 
 Florent Chuffart. 
