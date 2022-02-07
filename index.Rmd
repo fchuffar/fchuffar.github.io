@@ -8,25 +8,27 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+
+
+[18]
+*ATAD2 controls chromatin-bound HIRA turnover.*
+Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour, Florent Chuffart, Sophie Barral, Alexandra Vargas, Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André Verdel, Saadi Khochbin. 
+**Life Sci Alliance**, 2021.
+
 [17]
 *CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
-Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Planus, Sandra manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert.
-**Angiogenesis**, *in Revision*,
+Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Plan
 
-[16]
-*Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.*
-Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, **Florent Chuffart**, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi, Saadi Khochbin.
-**Cell Reports**, *in Revision*,
 
 [15]
 *Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
 Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, **Florent Chuffart**, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
-**Frontiers in Medicine**, *in Revision*,
+**Frontiers in Medicine**, *under Revision*,
 
 [14]
 *The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.*
 Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laure Vitte, **Florent Chuffart**, Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. 
-**British Journal of Cancer**, *in Revision*,
+**British Journal of Cancer**, *accepted 28th May 2021*,
 
 [13]
 *Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.*
@@ -108,7 +110,7 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 **pipeline_rrbs**: A set of scripts that orchestrate the analysis of RRBS data https://github.com/fchuffar/pipeline_rrbs
 
-**ectopy**: An Python package that detects ectopic gene expression in cancer https://github.com/epimed/ectopy
+**ectopy**: A Python package that detects ectopic gene expression in cancer https://github.com/epimed/ectopy
 
 **ector**: An R package that detects ectopic gene expression in cancer https://github.com/mpetrier/ector
 
@@ -118,18 +120,20 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 **dmprocr**: a set of usefull functions organized around a workflow and performing differential methylation profiles clustering. https://github.com/bcm–uga/dmprocr
 
-**epimedtools**: An package provides set of useful statistical functions. This package rely on 'GEOquery' and 'affy' packages, R Reference Classes, caching features and memoisation to simplify, homogenize and speed up multi–omic analysis. https://github.com/fchuffar/epimedtools
+**epimedtools**: A package providing a set of useful statistical functions. This package relies on 'GEOquery' and 'affy' packages, R Reference Classes, caching features and memoisation to simplify, homogenize and speed up multi–omic analysis. https://github.com/fchuffar/epimedtools
 
-**methmybeachup**: An package provides a set of functions allowing to easily convolves and vizualise methylome signal across genes and CpG islands. https://github.com/fchuffar/methmybeachup
+**methmybeachup**: A package providing a set of functions allowing to easily convolves and visualize the methylome signal across genes and CpG islands. https://github.com/fchuffar/methmybeachup
 
 **BoT**: (stands for Bag of Tasks) is an R package allowing to distribute independent tasks over many cores and many computing nodes. https://github.com/fchuffar/bot
 
-**ptlmapper**:  package contains functions that are used to map single–cell Probabilistic Trait Loci (scPTL). The principle of scPTL mapping is to consider a distribution of single–cell traits as the phenotype of a (multicellular) individual, to acquire this phenotype in many individuals, and to scan the genome for DNA variants that change this phenotype. https://github.com/fchuffar/ptlmapper
+**ptlmapper**: a package which contains functions that are used to map single–cell Probabilistic Trait Loci (scPTL). The principle of scPTL mapping is to consider a distribution of single–cell traits as the phenotype of a (multicellular) individual, to acquire this phenotype in many individuals, and to scan the genome for DNA variants that change this phenotype. https://github.com/fchuffar/ptlmapper
 
 
 
 
 # Training
+
+2021: Atelier Statistique : Traitement statistique de données censurées en analyse de survie, 5, 6, 7 juillet 2021, distanciel.
 
 2020: Single Cell: Génomique de la cellule unique. 8-9 octobre 2020, Lyon (69), France.
 
@@ -216,13 +220,13 @@ Utilisation des ressources CIMENT dans le cadre du projet e*pimed: les besoins s
 Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, **Florent Chuffart.** 
 **JCAD** 2018, 24-26 october, Lyon (69), France.
 
-*Intégration de données multi-omiques: RGCCA, Mix Omics.* 
+*Intégration de données multi-omiques: RGCCA, Mix Omics.* 
 Florent Chuffart. 
 **Journée thematique ’statistique & genomique’**, 12 octobre 2018, Paris.
 
 
-*Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois.*
-Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, **Florent Chuffart**, Olivier François, Keurcien Luu, Florian Privé, Magali Richard.
+*Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois.*
+Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, **Florent Chuffart**, Olivier François, Keurcien Luu, Florian Privé, Magali Richard.
 **CFIES2017**, septembre 2017, Grenoble, France. https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf
 
 *The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target.* 
@@ -300,5 +304,4 @@ Cyril Bazin, **Florent Chuffart**, and Jacques Madelaine.
 *Aurora, a framework enabling multimodal interactions.* (in Proceedings). 
 **Florent Chuffart**, Filip Van Gool, and Lionel Courval. 
 In Workshop on International on Multimodal Multiparty Meeting Processing, ACM **ICMI Workshop**. 7 October 2005, Trento, Italy. 53-585.
-
 

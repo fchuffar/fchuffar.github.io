@@ -7,9 +7,9 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "CV"
       icon: fa-user 
-      href: about.html
+      href: FChuffart_cv.pdf
   right:
     - text: "Contact me"
       icon: fa-envelope-o
