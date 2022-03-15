@@ -1,3 +1,4 @@
+Florent Chuffart  
 INSERM/IAB/EpiMed (U1209/UMR5309)  
 Site Santé - Allée des Alpes  
 38700 La Tronche  
@@ -8,11 +9,22 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+[20]
+*Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success*
+Maryam Rezaei-Gazik, Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari, Sophie Barral,
+Vahid Esmaeili, **Florent Chuffart**, Mohammad Ali Sadighi-Gilani, Yohann Coute, Poopak Eftekhari-Yazdi, Saadi Khochbin, Sophie Rousseaux and Mehdi Totonchi.
+**MRH**, 2022.
 
+[19]
+*AKR1B10, one of the triggers of cytokine storm in SARS-Cov2 severe Acute Respiratory Syndrome.*
+Clovis Chabert, Anne-Laure Vitte, Domenico Iuso, **Florent Chuffart**, 
+Candice Trocme, Marlyse Buisson, Pascal Poignard, Benjamin Lardinois, Régis 
+Debois, Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi Khochbin.
+**IJMS**, 2022.
 
 [18]
 *ATAD2 controls chromatin-bound HIRA turnover.*
-Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour, Florent Chuffart, Sophie Barral, Alexandra Vargas, Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André Verdel, Saadi Khochbin. 
+Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour, **Florent Chuffart**, Sophie Barral, Alexandra Vargas, Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André Verdel, Saadi Khochbin. 
 **Life Sci Alliance**, 2021.
 
 [17]
