@@ -44,7 +44,6 @@ Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour
 *CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
 Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Plan
 
-
 [15]
 *Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
 Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, **Florent Chuffart**, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
@@ -59,7 +58,6 @@ Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laur
 *Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.*
 Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, Meriem Benmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, Remy Slama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule, EDEN Mother-Child Cohort Study Group.
 **BMC Med**, 2020.
-
 
 [12]
 *PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
