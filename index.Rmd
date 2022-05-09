@@ -11,18 +11,28 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
-[20]
-*Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success*
+[22]
+*Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success.*
 Maryam Rezaei-Gazik, Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari, Sophie Barral,
 Vahid Esmaeili, **Florent Chuffart**, Mohammad Ali Sadighi-Gilani, Yohann Coute, Poopak Eftekhari-Yazdi, Saadi Khochbin, Sophie Rousseaux and Mehdi Totonchi.
 **MRH**, 2022.
 
-[19]
+[21]
 *AKR1B10, one of the triggers of cytokine storm in SARS-Cov2 severe Acute Respiratory Syndrome.*
 Clovis Chabert, Anne-Laure Vitte, Domenico Iuso, **Florent Chuffart**, 
 Candice Trocme, Marlyse Buisson, Pascal Poignard, Benjamin Lardinois, Régis 
 Debois, Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi Khochbin.
 **IJMS**, 2022.
+
+
+[20]
+Keerthi Kurma, Olivier Manches, **Florent Chuffart**, Nathalie Sturm, Khaldoun Gharzeddine, Jianhui Zhang, Marion Mercey-Ressejac, Sophie Rousseaux, Arnaud Millet, Herve Lerat, Patrice N Marche, Zuzana Macek Jilkova and Thomas Decaens.
+**Cancers (Basel)**, 2021.
+
+[19]
+*Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.*
+Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, **Florent Chuffart**, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi and Saadi Khochbin.
+**Cell Rep**,  2021.
 
 [18]
 *ATAD2 controls chromatin-bound HIRA turnover.*
