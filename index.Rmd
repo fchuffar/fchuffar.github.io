@@ -26,6 +26,7 @@ Debois, Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi Khochbin
 
 
 [20]
+*DEN-Induced Rat Model Reproduces Key Features of Human Hepatocellular Carcinoma.*
 Keerthi Kurma, Olivier Manches, **Florent Chuffart**, Nathalie Sturm, Khaldoun Gharzeddine, Jianhui Zhang, Marion Mercey-Ressejac, Sophie Rousseaux, Arnaud Millet, Herve Lerat, Patrice N Marche, Zuzana Macek Jilkova and Thomas Decaens.
 **Cancers (Basel)**, 2021.
 
