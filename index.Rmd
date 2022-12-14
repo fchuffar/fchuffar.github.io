@@ -11,6 +11,27 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+[26]
+*Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.*
+Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, **Florent Chuffart**, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan,
+Q1 Daphné Seigneurin-Berny, and André Verdel1.
+**Cell Report**, 2022.
+
+[25]
+*SMYD3 impedes small cell lung cancer sensitivity to alkylation damage through RNF113A methylation-phosphorylation crosstalk.*
+Valentina Lukinovic, Simone Hausmann, Gaël Roth, Clement Oyeniran, Tanveer Ahmad, Ning Tsao, Joshua Brickner, Alexandre Casanova, **Florent Chuffart**, Ana Morales Benitez, Jessica Vayr, Rebecca Rodell, Marianne Tardif, Pascal W.T.C. Jansen, Yohann Couté, Michiel Vermeulen, Pierre Hainaut, Pawel Mazur, Nima Mosammaparast, and Nicolas Reynoird.
+**Cancer Discovery**, 2022.
+
+[24]
+*Ectopic expression of a combination of 5 genes detects high risk forms of T-cell acute lymphoblastic leukemia.*
+Li-Jun Peng, Yue-Bo Zhou, Mei Geng, Ekaterina Bourova-Flin, **Florent Chuffart**, Wei-Na Zhang, Tao Wang, Meng-Qing Gao, Meng-Ping Xi, Zhong-Yi Cheng, Jiao-Jiao Zhang, Yuan-Fang Liu, Bing Chen, Saadi Khochbin, Jin Wang, Sophie Rousseaux, Jian-Qing Mi.
+**BMC Genomics**, 2022.
+
+[23]
+*Chronic intermittent hypoxia increases cell proliferation in hepatocellular carcinoma.*
+Lydie Carreres, Marion Mercey-Ressejac, Keerthi Kurma, Julien Ghelfi, Carole Fournier, Olivier Manches, **Florent Chuffart**, Sophie Rousseaux, Melanie Minovés, Thomas Decaens, Herve Lerat, Zuzana Macek Jilkov.
+**Cells**, 2022.
+
 [22]
 *Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success.*
 Maryam Rezaei-Gazik, Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari, Sophie Barral,
@@ -42,7 +63,8 @@ Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour
 
 [17]
 *CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
-Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Plan
+Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Planus, Sandra Manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert.
+**Angiogenesis** 2021.
 
 [15]
 *Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
@@ -156,6 +178,10 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 # Training
 
+2022: Formation interne FIJI. 29 septembre 2022, IAB, Grenoble.
+
+2022: ANF Formation de Formateurs Internes CNRS. 20, 21 et 29 juin 2022, 11 et 12 juillet 2022, Grenoble.
+ 
 2021: Atelier Statistique : Traitement statistique de données censurées en analyse de survie, 5, 6, 7 juillet 2021, distanciel.
 
 2020: Single Cell: Génomique de la cellule unique. 8-9 octobre 2020, Lyon (69), France.
@@ -217,11 +243,29 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
 
+
+
+
+
 # Other Communications
 
-*Lysine Methyltransferases Signaling: Histones are Just the Tip of the Iceberg.*
-Lukinović V, Casanova AG, Roth GS, **Chuffart F**, Reynoird N.
-**Curr Protein Pept Sci.** 2020 Jan 1
+
+*Construction of a clock to measure the impact of tobacco on the epigenetic age of whole blood.*
+Florent Jossaud, Fabien Chuffart, Julien Thevenon. 
+**3IA PhD students workshop**, 21 November 2022, Grenoble (38).
+
+*Methodological Pitfalls in the Construction of Epigenetic Clock Models.*
+Florent Chuffart. 
+**LBBE seminar**, 08 November 2022, Lyon (69).
+
+
+*DNA methylation repression of transcriptional activity and its reactivation in a demethylating context.*
+F. Pittion, E. Bourova-Flin, S. Khochbin, S. Rousseaux, F. Chuffart.
+**JOBIM**, 06-09 july 2021, Paris (75).
+
+*Réflexion autour de l’analyse de variance dans le cadre d’un plan d’expérience incomplet.*
+Florent Chuffart.
+**Les Remues-Méninges du RIS**, 26 novembre 2021, distanciel.
 
 *Analysis of RNA-seq data.* 
 Florent Chuffart. 
