@@ -13,8 +13,7 @@ fax: +33 (0)4 76 54 94 25
 
 [26]
 *Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.*
-Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, **Florent Chuffart**, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan,
-Q1 Daphné Seigneurin-Berny, and André Verdel1.
+Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, **Florent Chuffart**, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan, Daphné Seigneurin-Berny, and André Verdel.
 **Cell Report**, 2022.
 
 [25]
@@ -249,6 +248,12 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Other Communications
 
+
+Comité d’organisation des *Open Science Days@UGA*, les 13 14 et 15, Grenoble (38).
+
+Tutoriel *Software Heritage et HAL : référencement de codes*
+Lucie Albaret, Alexis Arnaud, Violaine Louvet, Maria-Grazia Santangelo, Florent Chuffart
+**Open Science Days@UGA**, 14 décembre 2022, Grenoble (38).
 
 *Construction of a clock to measure the impact of tobacco on the epigenetic age of whole blood.*
 Florent Jossaud, Fabien Chuffart, Julien Thevenon. 
