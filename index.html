@@ -13,6 +13,7 @@
 
 <title>index.knit</title>
 
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -142,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -237,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -293,127 +291,482 @@ $(document).ready(function () {
 INSERM/IAB/EpiMed (U1209/UMR5309)<br />
 Site Santé - Allée des Alpes<br />
 38700 La Tronche<br />
-<a href="mailto:florent.chuffart@univ-grenoble-alpes.fr" class="email">florent.chuffart@univ-grenoble-alpes.fr</a><br />
+<a href="mailto:florent.chuffart@univ-grenoble-alpes.fr"
+class="email">florent.chuffart@univ-grenoble-alpes.fr</a><br />
 tel: +33 (0)4 76 54 95 82<br />
 fax: +33 (0)4 76 54 94 25</p>
 <div id="research-publications" class="section level1">
 <h1>Research Publications</h1>
-<p>[26] <em>Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.</em> Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, <strong>Florent Chuffart</strong>, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan, Daphné Seigneurin-Berny, and André Verdel. <strong>Cell Report</strong>, 2022.</p>
-<p>[25] <em>SMYD3 impedes small cell lung cancer sensitivity to alkylation damage through RNF113A methylation-phosphorylation crosstalk.</em> Valentina Lukinovic, Simone Hausmann, Gaël Roth, Clement Oyeniran, Tanveer Ahmad, Ning Tsao, Joshua Brickner, Alexandre Casanova, <strong>Florent Chuffart</strong>, Ana Morales Benitez, Jessica Vayr, Rebecca Rodell, Marianne Tardif, Pascal W.T.C. Jansen, Yohann Couté, Michiel Vermeulen, Pierre Hainaut, Pawel Mazur, Nima Mosammaparast, and Nicolas Reynoird. <strong>Cancer Discovery</strong>, 2022.</p>
-<p>[24] <em>Ectopic expression of a combination of 5 genes detects high risk forms of T-cell acute lymphoblastic leukemia.</em> Li-Jun Peng, Yue-Bo Zhou, Mei Geng, Ekaterina Bourova-Flin, <strong>Florent Chuffart</strong>, Wei-Na Zhang, Tao Wang, Meng-Qing Gao, Meng-Ping Xi, Zhong-Yi Cheng, Jiao-Jiao Zhang, Yuan-Fang Liu, Bing Chen, Saadi Khochbin, Jin Wang, Sophie Rousseaux, Jian-Qing Mi. <strong>BMC Genomics</strong>, 2022.</p>
-<p>[23] <em>Chronic intermittent hypoxia increases cell proliferation in hepatocellular carcinoma.</em> Lydie Carreres, Marion Mercey-Ressejac, Keerthi Kurma, Julien Ghelfi, Carole Fournier, Olivier Manches, <strong>Florent Chuffart</strong>, Sophie Rousseaux, Melanie Minovés, Thomas Decaens, Herve Lerat, Zuzana Macek Jilkov. <strong>Cells</strong>, 2022.</p>
-<p>[22] <em>Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success.</em> Maryam Rezaei-Gazik, Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari, Sophie Barral, Vahid Esmaeili, <strong>Florent Chuffart</strong>, Mohammad Ali Sadighi-Gilani, Yohann Coute, Poopak Eftekhari-Yazdi, Saadi Khochbin, Sophie Rousseaux and Mehdi Totonchi. <strong>MRH</strong>, 2022.</p>
-<p>[21] <em>AKR1B10, one of the triggers of cytokine storm in SARS-Cov2 severe Acute Respiratory Syndrome.</em> Clovis Chabert, Anne-Laure Vitte, Domenico Iuso, <strong>Florent Chuffart</strong>, Candice Trocme, Marlyse Buisson, Pascal Poignard, Benjamin Lardinois, Régis Debois, Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi Khochbin. <strong>IJMS</strong>, 2022.</p>
-<p>[20] <em>DEN-Induced Rat Model Reproduces Key Features of Human Hepatocellular Carcinoma.</em> Keerthi Kurma, Olivier Manches, <strong>Florent Chuffart</strong>, Nathalie Sturm, Khaldoun Gharzeddine, Jianhui Zhang, Marion Mercey-Ressejac, Sophie Rousseaux, Arnaud Millet, Herve Lerat, Patrice N Marche, Zuzana Macek Jilkova and Thomas Decaens. <strong>Cancers (Basel)</strong>, 2021.</p>
-<p>[19] <em>Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.</em> Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, <strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi and Saadi Khochbin. <strong>Cell Rep</strong>, 2021.</p>
-<p>[18] <em>ATAD2 controls chromatin-bound HIRA turnover.</em> Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour, <strong>Florent Chuffart</strong>, Sophie Barral, Alexandra Vargas, Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André Verdel, Saadi Khochbin. <strong>Life Sci Alliance</strong>, 2021.</p>
-<p>[17] <em>CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.</em> Daphné Raphaelle Vannier, Apeksha Shapeti, <strong>Florent Chuffart</strong>, Emmanuelle Planus, Sandra Manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert. <strong>Angiogenesis</strong> 2021.</p>
-<p>[15] <em>Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.</em> Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, <strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang. <strong>Frontiers in Medicine</strong>, <em>under Revision</em>,</p>
-<p>[14] <em>The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.</em> Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laure Vitte, <strong>Florent Chuffart</strong>, Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. <strong>British Journal of Cancer</strong>, <em>accepted 28th May 2021</em>,</p>
-<p>[13] <em>Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.</em> Sophie Rousseaux, Emie Seyve, <strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Meriem Benmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, Remy Slama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule, EDEN Mother-Child Cohort Study Group. <strong>BMC Med</strong>, 2020.</p>
-<p>[12] <em>PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.</em> Magali Richard, Clémentine Decamps, <strong>Florent Chuffart</strong>, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost. <strong>PLoS Comput Biol</strong>, 2020.</p>
-<p>[11] <em>RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.</em> Naghmeh Hoghoughi Sophie Barral Sandrine Curtet, <strong>Florent Chuffart</strong>, Guillaume Charbonnier, Denis Puthier, Thierry Buchou, Sophie Rousseaux, Saadi Khochbin. <strong>Cells</strong>, 2020.</p>
-<p>[10] <em>Extracellular Vesicles From Myelodysplastic Mesenchymal Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem Cells Through miRNA Transfer.</em> Mathieu Meunier, Audrey Guttin, Sarah Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay, <strong>Florent Chuffart</strong>, Sophie Rousseaux, Quentin Testard, Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park. <strong>Leukemia</strong>, 2020.</p>
-<p>[9] <em>Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software.</em> Clémentine Decamps, Florian Privé, Raphael Bacher, Daniel Jost, Arthur Waguet, <strong>HADACA consortium</strong>, Eugene Andres Houseman, Eugene Lurie, Pavlo Lutsik, Aleksandar Milosavljevic, Michael Scherer, Michael G. B. Blum Magali Richard. <strong>BMC Bioinformatics</strong>, 2020.</p>
-<p>[8] <em>Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.</em> Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L, Puthier D, <strong>Chuffart F</strong>, Bourova-Flin E, Picaud S, Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y, Khochbin S. <strong>Cell Rep</strong>, 2018.</p>
-<p>[7] <em>Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.</em> Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, <strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule. <strong>Environment International</strong>, 2018.</p>
-<p>[6] <em>Assigning function to natural allelic variation via dynamic modeling of gene network induction.</em> Richard M, <strong>Chuffart F</strong>, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan M, Barthelaix A, Springer M, Jost D, Yvert G. <strong>Mol Syst Biol</strong>, 2018.</p>
-<p>[5] <em>Exploiting single-cell quantitative data to map genetic variants having probabilistic effects.</em> <strong>Chuffart F</strong>, Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y, Yvert G. <strong>PLOS Genetics</strong>, 2016.</p>
-<p>[4] <em>The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution.</em> Fabien Filleton, <strong>Florent Chuffart</strong>, Muniyandi Nagarajan, Helene Bottin-Duplus, Gael Yvert. <strong>Epigenetics and Chromatin</strong>, 2015.</p>
-<p>[3] <em>MyLabStocks: a web-application to manage molecular biology materials.</em> <strong>Florent Chuffart</strong> and Gael Yvert. <strong>Yeast</strong>, 2014.</p>
-<p>[2] <em>When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System.</em> Eddy Caron, <strong>Florent Chuffart</strong>, Cédric Tedeschi. <strong>Future Generation Computer Systems</strong>, 2013.</p>
-<p>[1] <em>SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process.</em> <strong>Florent Chuffart</strong>, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant. <strong>International Journal of Agricultural and Environmental Information Systems</strong>, 2010.</p>
+<p>[31] <em>Long-term intermittent hypoxia in mice induces inflammatory
+pathways implicated in sleep apnea and steatohepatitis in humans</em>.
+Jonathan Gaucher, Emilie Montellier, Guillaume Vial, <strong>Florent
+Chuffart</strong>, Maëlle Guellerin, Sophie Bouyon, Emeline Lemarie,
+Yoshiki Yamaryo Botté, Aya Dirani, Raoua Ben Messaoud, Marie Joyeux
+Faure, Diane Godin Ribuot, Charlotte Costentin, Renaud Tamisier, Cyrille
+Y Botté, Saadi Khochbin, Sophie Rousseaux Jean-Louis Pépin.
+<strong>iScience</strong>, 2024.</p>
+<p>[30] <em>Nucleoside Diphosphate Kinases 1 and 2 regulate a liver
+protective response to a high-fat diet</em>. Domenico Iuso, Isabel
+Garcia-Saez, Yohann Couté, Yoshiki Yamaryo-Botté, Elisabetta Boeri Erba,
+Annie Adrait, Nour Zeaiter, Malgorzata Tokarska-Schlattner, Zuzana Macek
+Jilkova, Fayçal Boussouar, Sophie Barral, Luca Signor, Karine Couturier,
+Azadeh Hajmirza, <strong>Florent Chuffart</strong>, Ekaterina
+Bourova-Flin, Anne-Laure Vitte, Lisa Bargier, Denis Puthier, Thomas
+Decaens, Sophie Rousseaux, Cyrille Botté, Uwe Schlattner, Carlo Petosa,
+Saadi Khochbin. <strong>Science Advances</strong>, 2023.</p>
+<p>[29] <em>Aberrant activation of five embryonic stem cell-specific
+genes robustly predicts a high risk of relapse in breast cancers</em>.
+Emmanuelle Jacquet, <strong>Florent Chuffart</strong>, Anne‐Laure Vitte,
+Eleni Nika, Mireille Mousseau, Saadi Khochbin, Sophie Rousseaux,
+Ekaterina Bourova‐Flin. <strong>BMC Genomics</strong>, 2023.</p>
+<p>[28] <em>Serum IGF1 is a prognostic marker for resistance to targeted
+therapies and a predictive marker for anti-IGF1R therapy in
+melanoma</em>. Camila Castillo Ferrer, Théo Marguet, Laetitia
+Vanwonterghem, Sule Erbek, <strong>Florent Chuffart</strong>, Stéphane
+Mouret, Sabiha Trabelsi Messai, Anne-Sophie Gauchez, Jean-Luc Coll,
+Julie Charles, Amandine Hurbin, Véronique Martel-Frachet.
+<strong>Journal of Investigative Dermatology</strong>, 2023.</p>
+<p>[27] <em>Luspatercept (RAP-536) modulates oxidative stress without
+affecting mutation burden in myelodysplastic syndromes</em>. Meunier
+Mathieu, Chloé Friedrich, Nicolas Ducrot, Johanna Zannoni, Tondeur
+Sylvie, Nelly Jerraya, Sophie Rousseaux, <strong>Florent
+Chuffart</strong>, Olivier Kosmider, Zoubida Karim, Sophie Park.
+<strong>Ann Hematol</strong>, 2022.</p>
+<p>[26] <em>Chromatin-associated YTHDC1 coordinates heat-induced
+reprograming of gene expression.</em> Kalina Timcheva, Solenne Dufour,
+Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier,
+<strong>Florent Chuffart</strong>, Rémy Merret, Marion Helsmoortel,
+Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi
+Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan,
+Daphné Seigneurin-Berny, and André Verdel. <strong>Cell Report</strong>,
+2022.</p>
+<p>[25] <em>SMYD3 impedes small cell lung cancer sensitivity to
+alkylation damage through RNF113A methylation-phosphorylation
+crosstalk.</em> Valentina Lukinovic, Simone Hausmann, Gaël Roth, Clement
+Oyeniran, Tanveer Ahmad, Ning Tsao, Joshua Brickner, Alexandre Casanova,
+<strong>Florent Chuffart</strong>, Ana Morales Benitez, Jessica Vayr,
+Rebecca Rodell, Marianne Tardif, Pascal W.T.C. Jansen, Yohann Couté,
+Michiel Vermeulen, Pierre Hainaut, Pawel Mazur, Nima Mosammaparast, and
+Nicolas Reynoird. <strong>Cancer Discovery</strong>, 2022.</p>
+<p>[24] <em>Ectopic expression of a combination of 5 genes detects high
+risk forms of T-cell acute lymphoblastic leukemia.</em> Li-Jun Peng,
+Yue-Bo Zhou, Mei Geng, Ekaterina Bourova-Flin, <strong>Florent
+Chuffart</strong>, Wei-Na Zhang, Tao Wang, Meng-Qing Gao, Meng-Ping Xi,
+Zhong-Yi Cheng, Jiao-Jiao Zhang, Yuan-Fang Liu, Bing Chen, Saadi
+Khochbin, Jin Wang, Sophie Rousseaux, Jian-Qing Mi. <strong>BMC
+Genomics</strong>, 2022.</p>
+<p>[23] <em>Chronic intermittent hypoxia increases cell proliferation in
+hepatocellular carcinoma.</em> Lydie Carreres, Marion Mercey-Ressejac,
+Keerthi Kurma, Julien Ghelfi, Carole Fournier, Olivier Manches,
+<strong>Florent Chuffart</strong>, Sophie Rousseaux, Melanie Minovés,
+Thomas Decaens, Herve Lerat, Zuzana Macek Jilkov.
+<strong>Cells</strong>, 2022.</p>
+<p>[22] <em>Direct visualization of pre-protamine 2 detects protamine
+assembly failures and predicts ICSI success.</em> Maryam Rezaei-Gazik,
+Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari,
+Sophie Barral, Vahid Esmaeili, <strong>Florent Chuffart</strong>,
+Mohammad Ali Sadighi-Gilani, Yohann Coute, Poopak Eftekhari-Yazdi, Saadi
+Khochbin, Sophie Rousseaux and Mehdi Totonchi. <strong>MRH</strong>,
+2022.</p>
+<p>[21] <em>AKR1B10, one of the triggers of cytokine storm in SARS-Cov2
+severe Acute Respiratory Syndrome.</em> Clovis Chabert, Anne-Laure
+Vitte, Domenico Iuso, <strong>Florent Chuffart</strong>, Candice Trocme,
+Marlyse Buisson, Pascal Poignard, Benjamin Lardinois, Régis Debois,
+Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi
+Khochbin. <strong>IJMS</strong>, 2022.</p>
+<p>[20] <em>DEN-Induced Rat Model Reproduces Key Features of Human
+Hepatocellular Carcinoma.</em> Keerthi Kurma, Olivier Manches,
+<strong>Florent Chuffart</strong>, Nathalie Sturm, Khaldoun Gharzeddine,
+Jianhui Zhang, Marion Mercey-Ressejac, Sophie Rousseaux, Arnaud Millet,
+Herve Lerat, Patrice N Marche, Zuzana Macek Jilkova and Thomas Decaens.
+<strong>Cancers (Basel)</strong>, 2021.</p>
+<p>[19] <em>Metabolically controlled histone H4K5 acylation/acetylation
+ratio drives BRD4 genomic distribution.</em> Mengqing Gao, Jin Wang,
+Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian
+Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang,
+<strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Denis
+Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann,
+Jian Li, Yingming Zhao, Jian-Qing Mi and Saadi Khochbin. <strong>Cell
+Rep</strong>, 2021.</p>
+<p>[18] <em>ATAD2 controls chromatin-bound HIRA turnover.</em> Tao Wang,
+Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour,
+<strong>Florent Chuffart</strong>, Sophie Barral, Alexandra Vargas,
+Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya
+Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André
+Verdel, Saadi Khochbin. <strong>Life Sci Alliance</strong>, 2021.</p>
+<p>[17] <em>CCM2 deficient endothelial cells undergo a mechano-dependent
+reprogramming into senescence associated secretory phenotype used to
+recruit endothelial and immune cells.</em> Daphné Raphaelle Vannier,
+Apeksha Shapeti, <strong>Florent Chuffart</strong>, Emmanuelle Planus,
+Sandra Manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans
+Van Oosterwyck, Eva Faurobert. <strong>Angiogenesis</strong> 2021.</p>
+<p>[15] <em>Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell
+acute lymphoblastic leukemia.</em> Mengping Xi, Shanshan Guo, Caicike
+Bayin, Lijun peng, <strong>Florent Chuffart</strong>, Ekaterina
+Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
+<strong>Frontiers in Medicine</strong>, <em>under Revision</em>,</p>
+<p>[14] <em>The combined detection of Amphiregulin, Cyclin A1 and
+DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell
+Carcinoma.</em> Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh
+Goudarzi, Tao Wang, Anne-Laure Vitte, <strong>Florent Chuffart</strong>,
+Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. <strong>British
+Journal of Cancer</strong>, <em>accepted 28th May 2021</em>,</p>
+<p>[13] <em>Immediate and durable effects of maternal tobacco
+consumption alter placental DNA methylation in enhancer and imprinted
+gene-containing regions.</em> Sophie Rousseaux, Emie Seyve,
+<strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Meriem
+Benmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie
+Siroux, Remy Slama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna
+Lepeule, EDEN Mother-Child Cohort Study Group. <strong>BMC Med</strong>,
+2020.</p>
+<p>[12] <em>PenDA, a Rank-Based Method for Personalized Differential
+Analysis: Application to Lung Cancer.</em> Magali Richard, Clémentine
+Decamps, <strong>Florent Chuffart</strong>, Elisabeth Brambilla, Sophie
+Rousseaux, Saadi Khochbin, Daniel Jost. <strong>PLoS Comput
+Biol</strong>, 2020.</p>
+<p>[11] <em>RNA-Guided Genomic Localization of H2A.L.2 Histone
+Variant.</em> Naghmeh Hoghoughi Sophie Barral Sandrine Curtet,
+<strong>Florent Chuffart</strong>, Guillaume Charbonnier, Denis Puthier,
+Thierry Buchou, Sophie Rousseaux, Saadi Khochbin.
+<strong>Cells</strong>, 2020.</p>
+<p>[10] <em>Extracellular Vesicles From Myelodysplastic Mesenchymal
+Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem
+Cells Through miRNA Transfer.</em> Mathieu Meunier, Audrey Guttin, Sarah
+Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie
+Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay,
+<strong>Florent Chuffart</strong>, Sophie Rousseaux, Quentin Testard,
+Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine
+Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît
+Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park.
+<strong>Leukemia</strong>, 2020.</p>
+<p>[9] <em>Guidelines for cell-type heterogeneity quantification based
+on a comparative analysis of reference-free DNA methylation
+deconvolution software.</em> Clémentine Decamps, Florian Privé, Raphael
+Bacher, Daniel Jost, Arthur Waguet, <strong>HADACA consortium</strong>,
+Eugene Andres Houseman, Eugene Lurie, Pavlo Lutsik, Aleksandar
+Milosavljevic, Michael Scherer, Michael G. B. Blum Magali Richard.
+<strong>BMC Bioinformatics</strong>, 2020.</p>
+<p>[8] <em>Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation
+in Male Germ Cells.</em> Shiota H, Barral S, Buchou T, Tan M, Couté Y,
+Charbonnier G, Reynoird N, Boussouar F, Gérard M, Zhu M, Bargier L,
+Puthier D, <strong>Chuffart F</strong>, Bourova-Flin E, Picaud S,
+Filippakopoulos P, Goudarzi A, Ibrahim Z, Panne D, Rousseaux S, Zhao Y,
+Khochbin S. <strong>Cell Rep</strong>, 2018.</p>
+<p>[7] <em>Pregnancy exposure to atmospheric pollution and
+meteorological conditions and placental DNA methylation.</em> Emilie
+Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg
+Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman,
+Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz,
+<strong>Florent Chuffart</strong>, Ekaterina Bourova-Flin, Saadi
+Khochbin, Rémy Slama, Johanna Lepeule. <strong>Environment
+International</strong>, 2018.</p>
+<p>[6] <em>Assigning function to natural allelic variation via dynamic
+modeling of gene network induction.</em> Richard M, <strong>Chuffart
+F</strong>, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Entrevan
+M, Barthelaix A, Springer M, Jost D, Yvert G. <strong>Mol Syst
+Biol</strong>, 2018.</p>
+<p>[5] <em>Exploiting single-cell quantitative data to map genetic
+variants having probabilistic effects.</em> <strong>Chuffart F</strong>,
+Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y, Yvert G.
+<strong>PLOS Genetics</strong>, 2016.</p>
+<p>[4] <em>The complex pattern of epigenomic variation between natural
+yeast strains at single-nucleosome resolution.</em> Fabien Filleton,
+<strong>Florent Chuffart</strong>, Muniyandi Nagarajan, Helene
+Bottin-Duplus, Gael Yvert. <strong>Epigenetics and Chromatin</strong>,
+2015.</p>
+<p>[3] <em>MyLabStocks: a web-application to manage molecular biology
+materials.</em> <strong>Florent Chuffart</strong> and Gael Yvert.
+<strong>Yeast</strong>, 2014.</p>
+<p>[2] <em>When Self-Stabilization Meets Real Platforms: an Experimental
+Study of a Peer-to-Peer Service Discovery System.</em> Eddy Caron,
+<strong>Florent Chuffart</strong>, Cédric Tedeschi. <strong>Future
+Generation Computer Systems</strong>, 2013.</p>
+<p>[1] <em>SimExplorer : Programming Experimental Designs on Models and
+Managing Quality of Modelling Process.</em> <strong>Florent
+Chuffart</strong>, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant.
+<strong>International Journal of Agricultural and Environmental
+Information Systems</strong>, 2010.</p>
 </div>
 <div id="software-production" class="section level1">
 <h1>Software Production</h1>
-<p><strong>dmethr</strong>: Hunting DNA methylation repression of transcriptional activity and its reactivation in a demethylating context <a href="https://github.com/fchuffar/dmethr" class="uri">https://github.com/fchuffar/dmethr</a></p>
-<p><strong>medepir</strong>: DNA MEthylation DEconvolution PIpeline in R <a href="https://github.com/bcm-uga/medepir" class="uri">https://github.com/bcm-uga/medepir</a></p>
-<p><strong>methepic_map</strong>: An R script that build a dictionary of probes according to array annotations <a href="https://github.com/fchuffar/methepic_map" class="uri">https://github.com/fchuffar/methepic_map</a></p>
-<p><strong>pipeline_mnase</strong>: A set of scripts that orchestrate the analysis of MNase-Seq and ChIP-Seq data <a href="https://github.com/fchuffar/pipeline_mnase" class="uri">https://github.com/fchuffar/pipeline_mnase</a></p>
-<p><strong>pipeline_rrbs</strong>: A set of scripts that orchestrate the analysis of RRBS data <a href="https://github.com/fchuffar/pipeline_rrbs" class="uri">https://github.com/fchuffar/pipeline_rrbs</a></p>
-<p><strong>ectopy</strong>: A Python package that detects ectopic gene expression in cancer <a href="https://github.com/epimed/ectopy" class="uri">https://github.com/epimed/ectopy</a></p>
-<p><strong>ector</strong>: An R package that detects ectopic gene expression in cancer <a href="https://github.com/mpetrier/ector" class="uri">https://github.com/mpetrier/ector</a></p>
-<p><strong>deeptoolsr</strong>: DeepTools binding for R. <a href="https://github.com/fchuffar/deeptoolsr" class="uri">https://github.com/fchuffar/deeptoolsr</a></p>
-<p><strong>penda</strong>: An R package that performs personalized differential analysis of omics data. <a href="https://github.com/bcm-uga/penda" class="uri">https://github.com/bcm-uga/penda</a></p>
-<p><strong>dmprocr</strong>: a set of usefull functions organized around a workflow and performing differential methylation profiles clustering. <a href="https://github.com/bcm–uga/dmprocr" class="uri">https://github.com/bcm–uga/dmprocr</a></p>
-<p><strong>epimedtools</strong>: A package providing a set of useful statistical functions. This package relies on ‘GEOquery’ and ‘affy’ packages, R Reference Classes, caching features and memoisation to simplify, homogenize and speed up multi–omic analysis. <a href="https://github.com/fchuffar/epimedtools" class="uri">https://github.com/fchuffar/epimedtools</a></p>
-<p><strong>methmybeachup</strong>: A package providing a set of functions allowing to easily convolves and visualize the methylome signal across genes and CpG islands. <a href="https://github.com/fchuffar/methmybeachup" class="uri">https://github.com/fchuffar/methmybeachup</a></p>
-<p><strong>BoT</strong>: (stands for Bag of Tasks) is an R package allowing to distribute independent tasks over many cores and many computing nodes. <a href="https://github.com/fchuffar/bot" class="uri">https://github.com/fchuffar/bot</a></p>
-<p><strong>ptlmapper</strong>: a package which contains functions that are used to map single–cell Probabilistic Trait Loci (scPTL). The principle of scPTL mapping is to consider a distribution of single–cell traits as the phenotype of a (multicellular) individual, to acquire this phenotype in many individuals, and to scan the genome for DNA variants that change this phenotype. <a href="https://github.com/fchuffar/ptlmapper" class="uri">https://github.com/fchuffar/ptlmapper</a></p>
+<p><strong>dmethr</strong>: Hunting DNA methylation repression of
+transcriptional activity and its reactivation in a demethylating context
+<a href="https://github.com/fchuffar/dmethr"
+class="uri">https://github.com/fchuffar/dmethr</a></p>
+<p><strong>medepir</strong>: DNA MEthylation DEconvolution PIpeline in R
+<a href="https://github.com/bcm-uga/medepir"
+class="uri">https://github.com/bcm-uga/medepir</a></p>
+<p><strong>methepic_map</strong>: An R script that build a dictionary of
+probes according to array annotations <a
+href="https://github.com/fchuffar/methepic_map"
+class="uri">https://github.com/fchuffar/methepic_map</a></p>
+<p><strong>pipeline_mnase</strong>: A set of scripts that orchestrate
+the analysis of MNase-Seq and ChIP-Seq data <a
+href="https://github.com/fchuffar/pipeline_mnase"
+class="uri">https://github.com/fchuffar/pipeline_mnase</a></p>
+<p><strong>pipeline_rrbs</strong>: A set of scripts that orchestrate the
+analysis of RRBS data <a
+href="https://github.com/fchuffar/pipeline_rrbs"
+class="uri">https://github.com/fchuffar/pipeline_rrbs</a></p>
+<p><strong>ectopy</strong>: A Python package that detects ectopic gene
+expression in cancer <a href="https://github.com/epimed/ectopy"
+class="uri">https://github.com/epimed/ectopy</a></p>
+<p><strong>ector</strong>: An R package that detects ectopic gene
+expression in cancer <a href="https://github.com/mpetrier/ector"
+class="uri">https://github.com/mpetrier/ector</a></p>
+<p><strong>deeptoolsr</strong>: DeepTools binding for R. <a
+href="https://github.com/fchuffar/deeptoolsr"
+class="uri">https://github.com/fchuffar/deeptoolsr</a></p>
+<p><strong>penda</strong>: An R package that performs personalized
+differential analysis of omics data. <a
+href="https://github.com/bcm-uga/penda"
+class="uri">https://github.com/bcm-uga/penda</a></p>
+<p><strong>dmprocr</strong>: a set of usefull functions organized around
+a workflow and performing differential methylation profiles clustering.
+<a href="https://github.com/bcm–uga/dmprocr"
+class="uri">https://github.com/bcm–uga/dmprocr</a></p>
+<p><strong>epimedtools</strong>: A package providing a set of useful
+statistical functions. This package relies on ‘GEOquery’ and ‘affy’
+packages, R Reference Classes, caching features and memoisation to
+simplify, homogenize and speed up multi–omic analysis. <a
+href="https://github.com/fchuffar/epimedtools"
+class="uri">https://github.com/fchuffar/epimedtools</a></p>
+<p><strong>methmybeachup</strong>: A package providing a set of
+functions allowing to easily convolves and visualize the methylome
+signal across genes and CpG islands. <a
+href="https://github.com/fchuffar/methmybeachup"
+class="uri">https://github.com/fchuffar/methmybeachup</a></p>
+<p><strong>BoT</strong>: (stands for Bag of Tasks) is an R package
+allowing to distribute independent tasks over many cores and many
+computing nodes. <a href="https://github.com/fchuffar/bot"
+class="uri">https://github.com/fchuffar/bot</a></p>
+<p><strong>ptlmapper</strong>: a package which contains functions that
+are used to map single–cell Probabilistic Trait Loci (scPTL). The
+principle of scPTL mapping is to consider a distribution of single–cell
+traits as the phenotype of a (multicellular) individual, to acquire this
+phenotype in many individuals, and to scan the genome for DNA variants
+that change this phenotype. <a
+href="https://github.com/fchuffar/ptlmapper"
+class="uri">https://github.com/fchuffar/ptlmapper</a></p>
 </div>
 <div id="training" class="section level1">
 <h1>Training</h1>
 <p>2022: Formation interne FIJI. 29 septembre 2022, IAB, Grenoble.</p>
-<p>2022: ANF Formation de Formateurs Internes CNRS. 20, 21 et 29 juin 2022, 11 et 12 juillet 2022, Grenoble.</p>
-<p>2021: Atelier Statistique : Traitement statistique de données censurées en analyse de survie, 5, 6, 7 juillet 2021, distanciel.</p>
-<p>2020: Single Cell: Génomique de la cellule unique. 8-9 octobre 2020, Lyon (69), France.</p>
-<p>2019: Health data challenge (2nd edition), Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer. November 29, 2019, Aussois (France), <a href="https://cancer-heterogeneity.github.io/data_challenges.html" class="uri">https://cancer-heterogeneity.github.io/data_challenges.html</a></p>
-<p>2018: Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research, 10-14 decembre 2018, Aussois (73), France.</p>
-<p>2018 : Biologie intégrative ou biologie des systèmes par Joëlle Henry-Berger, 5-9 novembre 2018, Lyon (69), France.</p>
-<p>2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon (69), France.</p>
-<p>2017: Epigenetic &amp; High-Dimension Mediation Data Challenge. 7-9 June, Aussois (73), France.</p>
-<p>2017: Rencontres scientifiques des Grands Causses : Modélisation physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai, Millau (12), France.</p>
-<p>2016: Capture de conformation de chromosomes : vers l’analyse tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33), France.</p>
-<p>2015: DU in statistics at University of Strasbourg. 19-23 January, 15-19 June, 16-20 November, Strasbourg (67), France.</p>
-<p>2015: “R pour le calcul”, R avancé et performances. 5-9 October, Aussois (73), France.</p>
-<p>2015: Advanced Lecture Course on Computational Systems Biology. 6-11 April, Aussois (73), France.</p>
-<p>2012: Advances Lecture Course Hybrid Multicore Parallel Programming, 8-12 October, Autrans (38), France.</p>
-<p>2012: Wellcome Trust Advanced Course: In Silico Systems Biology. 23-27 April, Cambridge, UK.</p>
-<p>2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.</p>
+<p>2022: ANF Formation de Formateurs Internes CNRS. 20, 21 et 29 juin
+2022, 11 et 12 juillet 2022, Grenoble.</p>
+<p>2021: Atelier Statistique : Traitement statistique de données
+censurées en analyse de survie, 5, 6, 7 juillet 2021, distanciel.</p>
+<p>2020: Single Cell: Génomique de la cellule unique. 8-9 octobre 2020,
+Lyon (69), France.</p>
+<p>2019: Health data challenge (2nd edition), Matrix factorization and
+deconvolution methods to quantify tumor heterogeneity in cancer.
+November 29, 2019, Aussois (France), <a
+href="https://cancer-heterogeneity.github.io/data_challenges.html"
+class="uri">https://cancer-heterogeneity.github.io/data_challenges.html</a></p>
+<p>2018: Health Data Challenge: Matrix factorization and deconvolution
+methods to quantify tumor heterogeneity in cancer research, 10-14
+decembre 2018, Aussois (73), France.</p>
+<p>2018 : Biologie intégrative ou biologie des systèmes par Joëlle
+Henry-Berger, 5-9 novembre 2018, Lyon (69), France.</p>
+<p>2018: Journée Campagnes de calculs reproductibles, 23 october, Lyon
+(69), France.</p>
+<p>2017: Epigenetic &amp; High-Dimension Mediation Data Challenge. 7-9
+June, Aussois (73), France.</p>
+<p>2017: Rencontres scientifiques des Grands Causses : Modélisation
+physique de l’organisation nucléaire et de ses pathologies. 9-12 Mai,
+Millau (12), France.</p>
+<p>2016: Capture de conformation de chromosomes : vers l’analyse
+tridimensionnelle de la régulation des génomes. 2-4 Mai, Bordeaux (33),
+France.</p>
+<p>2015: DU in statistics at University of Strasbourg. 19-23 January,
+15-19 June, 16-20 November, Strasbourg (67), France.</p>
+<p>2015: “R pour le calcul”, R avancé et performances. 5-9 October,
+Aussois (73), France.</p>
+<p>2015: Advanced Lecture Course on Computational Systems Biology. 6-11
+April, Aussois (73), France.</p>
+<p>2012: Advances Lecture Course Hybrid Multicore Parallel Programming,
+8-12 October, Autrans (38), France.</p>
+<p>2012: Wellcome Trust Advanced Course: In Silico Systems Biology.
+23-27 April, Cambridge, UK.</p>
+<p>2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May,
+Hyères (83), France.</p>
 </div>
 <div id="jobs" class="section level1">
 <h1>Jobs</h1>
-<p>Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.</p>
-<p>September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)</p>
-<p>September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)</p>
-<p>Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)</p>
-<p>October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)</p>
+<p>Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble,
+France. Data analysis and modelling of biological systems.</p>
+<p>September 2012 - November 2015: Post Doctoral position at LBMC, CNRS,
+Lyon, France. Dynamic simulation of a gene regulatory network in various
+wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359)
+(Systems Genetics of Heritable variaTions)</p>
+<p>September 2009 - August 2012: Senior Engineer position at LIP, Inria,
+Lyon, France. Design and implementation of a peer-to-peer grid
+middleware supporting petascale architecture. SPADES project
+(08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd
+System)</p>
+<p>Janury 2008 - August 2009: Post Doctoral position at Irstea
+(ex-Cemagref), Clermont-Ferrand, France. Compared study, design and
+implementation of Individual Based Model (IBM) and Differential Equation
+Model (DEM). Application to predator-prey model that incorporates
+individual behavior of the predators. Sensitivity analysis of from model
+parameters, impact on model behavior. LifeGrid / PatRes project
+(FP6-043268) (Pattern Resilience)</p>
+<p>October 2004 - December 2007: Ph.D. position at France Telecom /
+University of Caen Basse-Normandie, Caen, France. Conception design and
+implementation of an ubiquitous services platform integrating
+distributed multimodal interfaces. AURORA Project (ITEA-03005)</p>
 </div>
 <div id="education" class="section level1">
 <h1>Education</h1>
-<p>2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.</p>
-<p>2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.</p>
-<p>2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.</p>
-<p>2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.</p>
-<p>2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.</p>
-<p>1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.</p>
-<p>1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.</p>
+<p>2016: DU degree in statistics at University of Strasbourg,Strasbourg,
+France.</p>
+<p>2007: Ph.D. degree in computer science at University of Caen
+Basse-Normandie, Caen, France.</p>
+<p>2004: DEA (master science) in computer science, artificial
+intelligence and algorithm at University of Caen Basse-Normandie, Caen,
+France.</p>
+<p>2003: Maitrise (master’s degree) in applied Mathematics at University
+of Rouen, Rouen, France.</p>
+<p>2002: Licence (under graduate) in Mathematics at University of Rouen,
+Rouen, France.</p>
+<p>1999: DUT (two-year university degree in technology) in Chemistry at
+IUT (University Institute of Technology) of Rouen, Rouen, France.</p>
+<p>1997: Baccalauréat (French secondary school diploma), science major,
+Rouen, France.</p>
 </div>
 <div id="other-communications" class="section level1">
 <h1>Other Communications</h1>
-<p>Comité d’organisation des <em>Open Science <a href="mailto:Days@UGA" class="email">Days@UGA</a></em>, les 13 14 et 15, Grenoble (38).</p>
-<p>Tutoriel <em>Software Heritage et HAL : référencement de codes</em> Lucie Albaret, Alexis Arnaud, Violaine Louvet, Maria-Grazia Santangelo, Florent Chuffart <strong>Open Science <a href="mailto:Days@UGA" class="email">Days@UGA</a></strong>, 14 décembre 2022, Grenoble (38).</p>
-<p><em>Construction of a clock to measure the impact of tobacco on the epigenetic age of whole blood.</em> Florent Jossaud, Fabien Chuffart, Julien Thevenon. <strong>3IA PhD students workshop</strong>, 21 November 2022, Grenoble (38).</p>
-<p><em>Methodological Pitfalls in the Construction of Epigenetic Clock Models.</em> Florent Chuffart. <strong>LBBE seminar</strong>, 08 November 2022, Lyon (69).</p>
-<p><em>DNA methylation repression of transcriptional activity and its reactivation in a demethylating context.</em> F. Pittion, E. Bourova-Flin, S. Khochbin, S. Rousseaux, F. Chuffart. <strong>JOBIM</strong>, 06-09 july 2021, Paris (75).</p>
-<p><em>Réflexion autour de l’analyse de variance dans le cadre d’un plan d’expérience incomplet.</em> Florent Chuffart. <strong>Les Remues-Méninges du RIS</strong>, 26 novembre 2021, distanciel.</p>
-<p><em>Analysis of RNA-seq data.</em> Florent Chuffart. <strong>Journée thematique ’statistique &amp; genomique’</strong>, 19 september 2019, Paris.</p>
-<p><em>Snakemake as workflow engine</em>. Florent Chuffart. <strong>Python working session</strong>. 20 june 2019, Grenoble.</p>
-<p><em>Histone variants: critical determinants in tumour heterogeneity.</em> Wang T, <strong>Chuffart F</strong>, Bourova-Flin E, Wang J, Mi J, Rousseaux S, Khochbin S. <strong>Front Med</strong> 13 (3), 289-297. Jun 2019.</p>
-<p><em>ROCKs dependent contractility upon CCM depletion leads to a lossof endothelial cell identity and a gain in invasiv phenotype.</em> Daphné Vannier et al. Poster. <strong>Developmental and cell biology of the future conference</strong>, 27-29 march 2019, Paris.</p>
-<p>Utilisation des ressources CIMENT dans le cadre du projet e<em>pimed: les besoins spécifiques de la bioinformatique pour l’analyse des données d’exome.</em> Quentin Testard, Julien Thevenon, Jean-François Taly, Laure Raymond, <strong>Florent Chuffart.</strong> <strong>JCAD</strong> 2018, 24-26 october, Lyon (69), France.</p>
-<p><em>Intégration de données multi-omiques: RGCCA, Mix Omics.</em> Florent Chuffart. <strong>Journée thematique ’statistique &amp; genomique’</strong>, 12 octobre 2018, Paris.</p>
-<p><em>Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois.</em> Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, <strong>Florent Chuffart</strong>, Olivier François, Keurcien Luu, Florian Privé, Magali Richard. <strong>CFIES2017</strong>, septembre 2017, Grenoble, France. <a href="https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf" class="uri">https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf</a></p>
-<p><em>The role of bromodomain testis-specific factor, BRDT, in cancer: a biomarker and a possible therapeutic target.</em> Ekaterina Flin, <strong>Florent Chuffart</strong>, Sophie Rousseaux, Saadi Khochbin. <strong>Cell J</strong> (Yakhteh) Volume 19, Supplement 1, Spring 2017</p>
-<p><em>Heterogenety in Carcinogenesis Mechanism (the lung cancer example)</em> Florent Chuffart. <strong>Kick-off PITCHER</strong>. Lyon, 9 mach 2017.</p>
-<p><em>execo</em> (APP creation deposit). Matthieu Imbert, Laurent Pouilloux, <strong>Florent Chuffart.</strong> APP. 2015.</p>
-<p><em>A General Method to map Single-cell Probabilistic Trait Loci of the Genome.</em> (Short Talk). Florent Chuffart. <strong>Quatrièmes Rencontres R</strong>, 24-26 June 2015, Grenoble, France.</p>
-<p><em>Functional Genetic Diversity of the Yeast Galactose Network.</em> (Short Talk). Florent Chuffart. <strong>CompSysBio</strong>, 6-11 April 2015, Aussois, France.</p>
-<p><em>NucleoMiner 2.0: Detecting intra-species quantitative epigenomic variation at single-nucleosome resolution.</em> <strong>Florent Chuffart</strong>, Gael Yvert. (Poster). <strong>LyonSysBio</strong>, 19-21 November 2014, Villeurbanne, France.</p>
-<p><em>Parallel Computing in R using the Bot Package.</em> Florent Chuffart (Poster). <strong>Deuxièmes rencontres R</strong>. 27-28 Juin 2013, Lyon, France.</p>
-<p><em>Optimization in a Self-stabilizing Service Discovery Framework for Large Scale Systems.</em> (in Proceedings). Eddy Caron, <strong>Florent Chuffart</strong>, Anissa Lamani, Franck Petit. <strong>SSS</strong>. 2012. 239-252.</p>
-<p><em>Large scale P2P discovery middleware demonstration.</em> (in Proceedings). Eddy Caron, <strong>Florent Chuffart</strong>, Haiwu He, Anissa Lamani, Philippe Le Brouster, Olivier Richard. <strong>IEEE International Conference on Peer-to-Peer Computing</strong> (P2P), 1-2 September 2011, Kyoto, Japan. 152-153</p>
-<p><em>Mise en oeuvre de la découverte de services pour des plateformes dynamiques à large échelle.</em> (in Proceedings). <strong>Florent Chuffart</strong>, Haiwu He. <strong>RenPar’20</strong>, 10-13 May 2011, Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.</p>
-<p><em>Implementation and Evaluation of a P2P Service Discovery System: Application in a Dynamic Large Scale Computing Infrastructure.</em> (in Proceedings). Caron, E.; <strong>Chuffart, F.</strong>; Haiwu He; Tedeschi, C. <strong>IEEE 11th International Conference on Computer and Information Technology</strong> (CIT). 2011. 41-46.</p>
-<p><em>Declarative task delegation in OpenMOLE.</em> (in Proceedings). R Reuillon, <strong>F Chuffart</strong>, M Leclaire, T Faure, N Dumoulin, D Hill. <strong>International Conference on High performance computing and simulation</strong> (HPCS). 2010. 55-62.</p>
-<p><em>Applying a Moment Approximation to a bacterial biofilm individual-based model.</em> (in Proceedings). J-D. Mathias, <strong>F. Chuffart</strong>, N. Mabrouk, and G. Deffuant. <strong>ICCGI 2009</strong> : Proceedings of the 2009 Fourth International Multi-Conference on Computing in the Global Information Technology, pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.</p>
-<p><em>Record &amp; replay: expérimentation d’un service multimodal.</em> (in Proceedings). Antoine Bouyer, <strong>Florent Chuffart</strong>. <strong>UbiMob ’09</strong> Proceedings of the 5th French-Speaking Conference on Mobility and Ubiquity Computing. 2009. 19-23.</p>
-<p><em>The Design of a Multimodal Platform: Experimentation of Record &amp; Replay.</em> (in Proceedings). Bouyer, A. ; <strong>Chuffart, F.</strong> ; Courval, L. <strong>Second International Conferences on Advances in Computer-Human Interactions</strong>. 2009. 1-6.</p>
-<p><em>Design and Analysis of Computer Experiments with SimExplorer.</em> (in Proceedings). <strong>Florent Chuffart</strong>, Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume Deffuant. <strong>European Simulation and Modelling Conference</strong> (ESM2008). 27-29 October 2008, Le Havre, France. 575-577.</p>
-<p><em>Conception d’une plate-forme de services ubiquitaires intégrant des interfaces multimodales distribuées.</em> (PhD thesis). Florent Chuffart. Université de Caen Basse-Normandie. 2007.</p>
-<p><em>Construction d’une application vocale pour la sélection d’objets à l’aide d’un modèle basé sur les hypergraphes.</em> (in Proceedings). Cyril Bazin, <strong>Florent Chuffart</strong>, and Jacques Madelaine. <strong>9ème Conférence Internationale sur le Document Numérique</strong>. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.</p>
-<p><em>Aurora, multimodal messaging framework for ubiquitous web context.</em> (Communication). <strong>F. Chuffart</strong>, F. Van Gool, and L. Courval. <strong>W3C Ubiquitous Web Workshop</strong>, 2006.</p>
-<p><em>Aurora, a framework enabling multimodal interactions.</em> (in Proceedings). <strong>Florent Chuffart</strong>, Filip Van Gool, and Lionel Courval. In Workshop on International on Multimodal Multiparty Meeting Processing, ACM <strong>ICMI Workshop</strong>. 7 October 2005, Trento, Italy. 53-585.</p>
+<p>Comité d’organisation des <em>Open Science <a href="mailto:Days@UGA"
+class="email">Days@UGA</a></em>, les 13 14 et 15, Grenoble (38).</p>
+<p>Tutoriel <em>Software Heritage et HAL : référencement de codes</em>
+Lucie Albaret, Alexis Arnaud, Violaine Louvet, Maria-Grazia Santangelo,
+Florent Chuffart <strong>Open Science <a href="mailto:Days@UGA"
+class="email">Days@UGA</a></strong>, 14 décembre 2022, Grenoble
+(38).</p>
+<p><em>Construction of a clock to measure the impact of tobacco on the
+epigenetic age of whole blood.</em> Florent Jossaud, Fabien Chuffart,
+Julien Thevenon. <strong>3IA PhD students workshop</strong>, 21 November
+2022, Grenoble (38).</p>
+<p><em>Methodological Pitfalls in the Construction of Epigenetic Clock
+Models.</em> Florent Chuffart. <strong>LBBE seminar</strong>, 08
+November 2022, Lyon (69).</p>
+<p><em>DNA methylation repression of transcriptional activity and its
+reactivation in a demethylating context.</em> F. Pittion, E.
+Bourova-Flin, S. Khochbin, S. Rousseaux, F. Chuffart.
+<strong>JOBIM</strong>, 06-09 july 2021, Paris (75).</p>
+<p><em>Réflexion autour de l’analyse de variance dans le cadre d’un plan
+d’expérience incomplet.</em> Florent Chuffart. <strong>Les
+Remues-Méninges du RIS</strong>, 26 novembre 2021, distanciel.</p>
+<p><em>Analysis of RNA-seq data.</em> Florent Chuffart. <strong>Journée
+thematique ’statistique &amp; genomique’</strong>, 19 september 2019,
+Paris.</p>
+<p><em>Snakemake as workflow engine</em>. Florent Chuffart.
+<strong>Python working session</strong>. 20 june 2019, Grenoble.</p>
+<p><em>Histone variants: critical determinants in tumour
+heterogeneity.</em> Wang T, <strong>Chuffart F</strong>, Bourova-Flin E,
+Wang J, Mi J, Rousseaux S, Khochbin S. <strong>Front Med</strong> 13
+(3), 289-297. Jun 2019.</p>
+<p><em>ROCKs dependent contractility upon CCM depletion leads to a
+lossof endothelial cell identity and a gain in invasiv phenotype.</em>
+Daphné Vannier et al. Poster. <strong>Developmental and cell biology of
+the future conference</strong>, 27-29 march 2019, Paris.</p>
+<p>Utilisation des ressources CIMENT dans le cadre du projet e<em>pimed:
+les besoins spécifiques de la bioinformatique pour l’analyse des données
+d’exome.</em> Quentin Testard, Julien Thevenon, Jean-François Taly,
+Laure Raymond, <strong>Florent Chuffart.</strong> <strong>JCAD</strong>
+2018, 24-26 october, Lyon (69), France.</p>
+<p><em>Intégration de données multi-omiques: RGCCA, Mix Omics.</em>
+Florent Chuffart. <strong>Journée thematique ’statistique &amp;
+genomique’</strong>, 12 octobre 2018, Paris.</p>
+<p><em>Retour d’expérience concernant le data challenge épigénétique et
+médiation à large échelle d’Aussois.</em> Sophie Achard, Dylan Aïssi,
+Michael Blum, Kevin Caye, <strong>Florent Chuffart</strong>, Olivier
+François, Keurcien Luu, Florian Privé, Magali Richard.
+<strong>CFIES2017</strong>, septembre 2017, Grenoble, France. <a
+href="https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf"
+class="uri">https://toltex.imag.fr/users/RCqls/Workshop/cfies2017/Submissions/subm44.pdf</a></p>
+<p><em>The role of bromodomain testis-specific factor, BRDT, in cancer:
+a biomarker and a possible therapeutic target.</em> Ekaterina Flin,
+<strong>Florent Chuffart</strong>, Sophie Rousseaux, Saadi Khochbin.
+<strong>Cell J</strong> (Yakhteh) Volume 19, Supplement 1, Spring
+2017</p>
+<p><em>Heterogenety in Carcinogenesis Mechanism (the lung cancer
+example)</em> Florent Chuffart. <strong>Kick-off PITCHER</strong>. Lyon,
+9 mach 2017.</p>
+<p><em>execo</em> (APP creation deposit). Matthieu Imbert, Laurent
+Pouilloux, <strong>Florent Chuffart.</strong> APP. 2015.</p>
+<p><em>A General Method to map Single-cell Probabilistic Trait Loci of
+the Genome.</em> (Short Talk). Florent Chuffart. <strong>Quatrièmes
+Rencontres R</strong>, 24-26 June 2015, Grenoble, France.</p>
+<p><em>Functional Genetic Diversity of the Yeast Galactose Network.</em>
+(Short Talk). Florent Chuffart. <strong>CompSysBio</strong>, 6-11 April
+2015, Aussois, France.</p>
+<p><em>NucleoMiner 2.0: Detecting intra-species quantitative epigenomic
+variation at single-nucleosome resolution.</em> <strong>Florent
+Chuffart</strong>, Gael Yvert. (Poster). <strong>LyonSysBio</strong>,
+19-21 November 2014, Villeurbanne, France.</p>
+<p><em>Parallel Computing in R using the Bot Package.</em> Florent
+Chuffart (Poster). <strong>Deuxièmes rencontres R</strong>. 27-28 Juin
+2013, Lyon, France.</p>
+<p><em>Optimization in a Self-stabilizing Service Discovery Framework
+for Large Scale Systems.</em> (in Proceedings). Eddy Caron,
+<strong>Florent Chuffart</strong>, Anissa Lamani, Franck Petit.
+<strong>SSS</strong>. 2012. 239-252.</p>
+<p><em>Large scale P2P discovery middleware demonstration.</em> (in
+Proceedings). Eddy Caron, <strong>Florent Chuffart</strong>, Haiwu He,
+Anissa Lamani, Philippe Le Brouster, Olivier Richard. <strong>IEEE
+International Conference on Peer-to-Peer Computing</strong> (P2P), 1-2
+September 2011, Kyoto, Japan. 152-153</p>
+<p><em>Mise en oeuvre de la découverte de services pour des plateformes
+dynamiques à large échelle.</em> (in Proceedings). <strong>Florent
+Chuffart</strong>, Haiwu He. <strong>RenPar’20</strong>, 10-13 May 2011,
+Saint-Malo, France. RSTI, serie TSI, 31:8-9-10, 1101-1119.</p>
+<p><em>Implementation and Evaluation of a P2P Service Discovery System:
+Application in a Dynamic Large Scale Computing Infrastructure.</em> (in
+Proceedings). Caron, E.; <strong>Chuffart, F.</strong>; Haiwu He;
+Tedeschi, C. <strong>IEEE 11th International Conference on Computer and
+Information Technology</strong> (CIT). 2011. 41-46.</p>
+<p><em>Declarative task delegation in OpenMOLE.</em> (in Proceedings). R
+Reuillon, <strong>F Chuffart</strong>, M Leclaire, T Faure, N Dumoulin,
+D Hill. <strong>International Conference on High performance computing
+and simulation</strong> (HPCS). 2010. 55-62.</p>
+<p><em>Applying a Moment Approximation to a bacterial biofilm
+individual-based model.</em> (in Proceedings). J-D. Mathias, <strong>F.
+Chuffart</strong>, N. Mabrouk, and G. Deffuant. <strong>ICCGI
+2009</strong> : Proceedings of the 2009 Fourth International
+Multi-Conference on Computing in the Global Information Technology,
+pages 138-143, Washington, DC, USA, 2009. IEEE Computer Society.</p>
+<p><em>Record &amp; replay: expérimentation d’un service
+multimodal.</em> (in Proceedings). Antoine Bouyer, <strong>Florent
+Chuffart</strong>. <strong>UbiMob ’09</strong> Proceedings of the 5th
+French-Speaking Conference on Mobility and Ubiquity Computing. 2009.
+19-23.</p>
+<p><em>The Design of a Multimodal Platform: Experimentation of Record
+&amp; Replay.</em> (in Proceedings). Bouyer, A. ; <strong>Chuffart,
+F.</strong> ; Courval, L. <strong>Second International Conferences on
+Advances in Computer-Human Interactions</strong>. 2009. 1-6.</p>
+<p><em>Design and Analysis of Computer Experiments with
+SimExplorer.</em> (in Proceedings). <strong>Florent Chuffart</strong>,
+Thierry Faure, Nicolas Dumoulin, Romain Reuillon, and Guillaume
+Deffuant. <strong>European Simulation and Modelling Conference</strong>
+(ESM2008). 27-29 October 2008, Le Havre, France. 575-577.</p>
+<p><em>Conception d’une plate-forme de services ubiquitaires intégrant
+des interfaces multimodales distribuées.</em> (PhD thesis). Florent
+Chuffart. Université de Caen Basse-Normandie. 2007.</p>
+<p><em>Construction d’une application vocale pour la sélection d’objets
+à l’aide d’un modèle basé sur les hypergraphes.</em> (in Proceedings).
+Cyril Bazin, <strong>Florent Chuffart</strong>, and Jacques Madelaine.
+<strong>9ème Conférence Internationale sur le Document
+Numérique</strong>. 18-20 Septembre 2006, Fribourg, Suisse. 43-58.</p>
+<p><em>Aurora, multimodal messaging framework for ubiquitous web
+context.</em> (Communication). <strong>F. Chuffart</strong>, F. Van
+Gool, and L. Courval. <strong>W3C Ubiquitous Web Workshop</strong>,
+2006.</p>
+<p><em>Aurora, a framework enabling multimodal interactions.</em> (in
+Proceedings). <strong>Florent Chuffart</strong>, Filip Van Gool, and
+Lionel Courval. In Workshop on International on Multimodal Multiparty
+Meeting Processing, ACM <strong>ICMI Workshop</strong>. 7 October 2005,
+Trento, Italy. 53-585.</p>
 </div>
 
 

@@ -11,6 +11,33 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+[31]
+*Long-term intermittent hypoxia in mice induces inflammatory pathways implicated in sleep apnea and steatohepatitis in humans*.
+Jonathan Gaucher, Emilie Montellier, Guillaume Vial, **Florent Chuffart**, Maëlle Guellerin, Sophie Bouyon, Emeline Lemarie, Yoshiki Yamaryo Botté, Aya Dirani, Raoua Ben Messaoud, Marie Joyeux Faure, Diane Godin Ribuot, Charlotte Costentin, Renaud Tamisier, Cyrille Y Botté, Saadi Khochbin, Sophie Rousseaux Jean-Louis Pépin.
+**iScience**, 2024.
+
+
+[30]
+*Nucleoside Diphosphate Kinases 1 and 2 regulate a liver protective response to a high-fat diet*.
+Domenico Iuso, Isabel Garcia-Saez, Yohann Couté, Yoshiki Yamaryo-Botté, Elisabetta Boeri Erba, Annie Adrait, Nour Zeaiter, Malgorzata Tokarska-Schlattner, Zuzana Macek Jilkova, Fayçal Boussouar, Sophie Barral, Luca Signor, Karine Couturier, Azadeh Hajmirza, **Florent Chuffart**, Ekaterina Bourova-Flin, Anne-Laure Vitte, Lisa Bargier, Denis Puthier, Thomas Decaens, Sophie Rousseaux, Cyrille Botté, Uwe Schlattner, Carlo Petosa, Saadi Khochbin.
+**Science Advances**, 2023.
+
+[29]
+*Aberrant activation of five embryonic stem cell-specific genes robustly predicts a high risk of relapse in breast cancers*.
+Emmanuelle Jacquet, **Florent Chuffart**, Anne‐Laure Vitte, Eleni Nika, Mireille Mousseau, Saadi Khochbin, Sophie Rousseaux, Ekaterina Bourova‐Flin.
+**BMC Genomics**, 2023.
+
+
+[28]
+*Serum IGF1 is a prognostic marker for resistance to targeted therapies and a predictive marker for anti-IGF1R therapy in melanoma*.
+Camila Castillo Ferrer, Théo Marguet, Laetitia Vanwonterghem, Sule Erbek, **Florent Chuffart**, Stéphane Mouret, Sabiha Trabelsi Messai, Anne-Sophie Gauchez, Jean-Luc Coll, Julie Charles, Amandine Hurbin, Véronique Martel-Frachet. 
+**Journal of Investigative Dermatology**, 2023.
+
+[27]
+*Luspatercept (RAP-536) modulates oxidative stress without affecting mutation burden in myelodysplastic syndromes*.
+Meunier Mathieu, Chloé Friedrich, Nicolas Ducrot, Johanna Zannoni, Tondeur Sylvie, Nelly Jerraya, Sophie Rousseaux, **Florent Chuffart**, Olivier Kosmider, Zoubida Karim, Sophie Park.
+**Ann Hematol**, 2022.
+
 [26]
 *Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.*
 Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, **Florent Chuffart**, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan, Daphné Seigneurin-Berny, and André Verdel.
