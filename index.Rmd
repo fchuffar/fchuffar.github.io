@@ -11,6 +11,16 @@ fax: +33 (0)4 76 54 94 25
 
 # Research Publications
 
+[33]
+*HBV and HBsAg strongly reshape the phenotype, function and metabolism of DCs according to patients’ clinical stage*.
+Lucile Dumolard, Theophile Gerster, Florent Chuffart, Thomas Decaens, David Durantel, Marie-Noelle Hilleret, Philippe Saas, Evelyne Jouvin-Marche1, Patrice N. Marche, Zuzana Macek Jilkova and Caroline Aspord.
+**Hepatology Communications**, 2025.
+
+[32]
+*Clustering of TP53 variants into functional classes correlates with cancer risk and identifies different phenotypes of the Li-Fraumeni Syndrome*.
+Emilie Montellier, Nathanaël Lemonnier, Judith Penkert, Claire Freycon, Sandrine Blanchet, Amina Amadou, **Florent Chuffart**, Nicholas W. Fischer, Maria Isabel Achatz, Arnold Levine, Catherine Goudie, David Malkin, Gaëlle Bougeard, Christian P. Kratz and Pierre Hainaut.
+**iScience**, 2024.
+
 [31]
 *Long-term intermittent hypoxia in mice induces inflammatory pathways implicated in sleep apnea and steatohepatitis in humans*.
 Jonathan Gaucher, Emilie Montellier, Guillaume Vial, **Florent Chuffart**, Maëlle Guellerin, Sophie Bouyon, Emeline Lemarie, Yoshiki Yamaryo Botté, Aya Dirani, Raoua Ben Messaoud, Marie Joyeux Faure, Diane Godin Ribuot, Charlotte Costentin, Renaud Tamisier, Cyrille Y Botté, Saadi Khochbin, Sophie Rousseaux Jean-Louis Pépin.
