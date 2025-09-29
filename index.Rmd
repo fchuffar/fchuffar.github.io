@@ -9,76 +9,110 @@ tel: +33 (0)4 76 54 95 82
 fax: +33 (0)4 76 54 94 25  
 
 
+# Jobs
+
+Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
+
+September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
+
+September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)
+
+Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)
+
+October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)
+
+# Education
+
+2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.
+
+2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
+
+2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
+
+2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.
+
+2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
+
+1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.
+
+1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
+
+
+
+
+
+
 # Research Publications
+
+[34]
+*Discovery of epigenetically silenced tumour suppressor genes in aggressive breast cancer through a computational approach*. 
+Vitte A, **Chuffart F**, Jacquet E, Nika E, Mousseau M, Jung I, Tabone-Eglinger S, Bachelot T, Rousseaux S, Khochbin S, Bourova-Flin E. 
+**NAR Cancer**, 2025.
 
 [33]
 *HBV and HBsAg strongly reshape the phenotype, function and metabolism of DCs according to patients’ clinical stage*.
-Lucile Dumolard, Theophile Gerster, Florent Chuffart, Thomas Decaens, David Durantel, Marie-Noelle Hilleret, Philippe Saas, Evelyne Jouvin-Marche1, Patrice N. Marche, Zuzana Macek Jilkova and Caroline Aspord.
+Dumolard L, Gerster T, **Chuffart F**, Decaens T, Durantel D, Hilleret M-N, Saas P, Jouvin-Marche E, Marche P-N, Macek Jilkova Z, Aspord C.
 **Hepatology Communications**, 2025.
 
 [32]
 *Clustering of TP53 variants into functional classes correlates with cancer risk and identifies different phenotypes of the Li-Fraumeni Syndrome*.
-Emilie Montellier, Nathanaël Lemonnier, Judith Penkert, Claire Freycon, Sandrine Blanchet, Amina Amadou, **Florent Chuffart**, Nicholas W. Fischer, Maria Isabel Achatz, Arnold Levine, Catherine Goudie, David Malkin, Gaëlle Bougeard, Christian P. Kratz and Pierre Hainaut.
+Montellier E, Lemonnier N, Penkert J, Freycon C, Blanchet S, Amadou A, **Chuffart F**, Fischer N-W, Achatz M-I, Levine A, Goudie C, Malkin D, Bougeard G, Kratz C-P, Hainaut P.
 **iScience**, 2024.
 
 [31]
 *Long-term intermittent hypoxia in mice induces inflammatory pathways implicated in sleep apnea and steatohepatitis in humans*.
-Jonathan Gaucher, Emilie Montellier, Guillaume Vial, **Florent Chuffart**, Maëlle Guellerin, Sophie Bouyon, Emeline Lemarie, Yoshiki Yamaryo Botté, Aya Dirani, Raoua Ben Messaoud, Marie Joyeux Faure, Diane Godin Ribuot, Charlotte Costentin, Renaud Tamisier, Cyrille Y Botté, Saadi Khochbin, Sophie Rousseaux Jean-Louis Pépin.
+Gaucher J, Montellier E, Vial G, **Chuffart F**, Guellerin M, Bouyon S, Lemarie E, Yamaryo Botté Y, Dirani A, Ben Messaoud R, Joyeux Faure M, Godin Ribuot D, Costentin C, Tamisier R, Botté C-Y, Khochbin S, Rousseaux S, Pépin J-L.
 **iScience**, 2024.
 
 
 [30]
 *Nucleoside Diphosphate Kinases 1 and 2 regulate a liver protective response to a high-fat diet*.
-Domenico Iuso, Isabel Garcia-Saez, Yohann Couté, Yoshiki Yamaryo-Botté, Elisabetta Boeri Erba, Annie Adrait, Nour Zeaiter, Malgorzata Tokarska-Schlattner, Zuzana Macek Jilkova, Fayçal Boussouar, Sophie Barral, Luca Signor, Karine Couturier, Azadeh Hajmirza, **Florent Chuffart**, Ekaterina Bourova-Flin, Anne-Laure Vitte, Lisa Bargier, Denis Puthier, Thomas Decaens, Sophie Rousseaux, Cyrille Botté, Uwe Schlattner, Carlo Petosa, Saadi Khochbin.
+Iuso D, Garcia-Saez I, Couté Y, Yamaryo-Botté Y, Boeri Erba E, Adrait A, Zeaiter N, Tokarska-Schlattner M, Macek Jilkova Z, Boussouar F, Barral S, Signor L, Couturier K, Hajmirza A, **Chuffart F**, Bourova-Flin E, Vitte A-L, Bargier L, Puthier D, Decaens T, Rousseaux S, Botté C, Schlattner U, Petosa C, Khochbin S.
 **Science Advances**, 2023.
 
 [29]
 *Aberrant activation of five embryonic stem cell-specific genes robustly predicts a high risk of relapse in breast cancers*.
-Emmanuelle Jacquet, **Florent Chuffart**, Anne‐Laure Vitte, Eleni Nika, Mireille Mousseau, Saadi Khochbin, Sophie Rousseaux, Ekaterina Bourova‐Flin.
+Jacquet E, **Chuffart F**, Vitte A-L, Nika E, Mousseau M, Khochbin S, Rousseaux S, Bourova-Flin E.
 **BMC Genomics**, 2023.
 
 
 [28]
 *Serum IGF1 is a prognostic marker for resistance to targeted therapies and a predictive marker for anti-IGF1R therapy in melanoma*.
-Camila Castillo Ferrer, Théo Marguet, Laetitia Vanwonterghem, Sule Erbek, **Florent Chuffart**, Stéphane Mouret, Sabiha Trabelsi Messai, Anne-Sophie Gauchez, Jean-Luc Coll, Julie Charles, Amandine Hurbin, Véronique Martel-Frachet. 
+Castillo-Ferrer C, Marguet T, Vanwonterghem L, Erbek S, **Chuffart F**, Mouret S, Trabelsi Messai S, Gauchez A-S, Coll J-L, Charles J, Hurbin A, Martel-Frachet V.
 **Journal of Investigative Dermatology**, 2023.
 
 [27]
 *Luspatercept (RAP-536) modulates oxidative stress without affecting mutation burden in myelodysplastic syndromes*.
-Meunier Mathieu, Chloé Friedrich, Nicolas Ducrot, Johanna Zannoni, Tondeur Sylvie, Nelly Jerraya, Sophie Rousseaux, **Florent Chuffart**, Olivier Kosmider, Zoubida Karim, Sophie Park.
-**Ann Hematol**, 2022.
+Meunier M, Friedrich C, Ducrot N, Zannoni J, Tondeur S, Jerraya N, Rousseaux S, **Chuffart F**, Kosmider O, Karim Z, Park S.**Ann Hematol**, 2022.
 
 [26]
 *Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.*
-Kalina Timcheva, Solenne Dufour, Leila Touat-Todeschini, Callum Burnard, Marie-Christine Carpentier, **Florent Chuffart**, Rémy Merret, Marion Helsmoortel, Sabrina Ferré , Aude Grézy, Yohann Couté, Sophie Rousseaux, Saadi Khochbin, Claire Vourc’h, Cécile Bousquet-Antonelli, Rosemary Kiernan, Daphné Seigneurin-Berny, and André Verdel.
+Timcheva K, Dufour S, Touat-Todeschini L, Burnard C, Carpentier M-C, **Chuffart F**, Merret R, Helsmoortel M, Ferré S, Grézy A, Couté Y, Rousseaux S, Khochbin S, Vourc’h C, Bousquet-Antonelli C, Kiernan R, Seigneurin-Berny D, Verdel A.
 **Cell Report**, 2022.
 
 [25]
 *SMYD3 impedes small cell lung cancer sensitivity to alkylation damage through RNF113A methylation-phosphorylation crosstalk.*
-Valentina Lukinovic, Simone Hausmann, Gaël Roth, Clement Oyeniran, Tanveer Ahmad, Ning Tsao, Joshua Brickner, Alexandre Casanova, **Florent Chuffart**, Ana Morales Benitez, Jessica Vayr, Rebecca Rodell, Marianne Tardif, Pascal W.T.C. Jansen, Yohann Couté, Michiel Vermeulen, Pierre Hainaut, Pawel Mazur, Nima Mosammaparast, and Nicolas Reynoird.
+Lukinovic V, Hausmann S, Roth G, Oyeniran C, Ahmad T, Tsao N, Brickner J, Casanova A, **Chuffart F**, Morales Benitez A, Vayr J, Rodell R, Tardif M, Jansen PWT, Couté Y, Vermeulen M, Hainaut P, Mazur P, Mosammaparast N, Reynoird N.
 **Cancer Discovery**, 2022.
 
 [24]
 *Ectopic expression of a combination of 5 genes detects high risk forms of T-cell acute lymphoblastic leukemia.*
-Li-Jun Peng, Yue-Bo Zhou, Mei Geng, Ekaterina Bourova-Flin, **Florent Chuffart**, Wei-Na Zhang, Tao Wang, Meng-Qing Gao, Meng-Ping Xi, Zhong-Yi Cheng, Jiao-Jiao Zhang, Yuan-Fang Liu, Bing Chen, Saadi Khochbin, Jin Wang, Sophie Rousseaux, Jian-Qing Mi.
+Peng L-J, Zhou Y-B, Geng M, Bourova-Flin E, **Chuffart F**, Zhang W-N, Wang T, Gao M-Q, Xi M-P, Cheng Z-Y, Zhang J-J, Liu Y-F, Chen B, Khochbin S, Wang J, Rousseaux S, Mi J-Q
 **BMC Genomics**, 2022.
 
 [23]
 *Chronic intermittent hypoxia increases cell proliferation in hepatocellular carcinoma.*
-Lydie Carreres, Marion Mercey-Ressejac, Keerthi Kurma, Julien Ghelfi, Carole Fournier, Olivier Manches, **Florent Chuffart**, Sophie Rousseaux, Melanie Minovés, Thomas Decaens, Herve Lerat, Zuzana Macek Jilkov.
+Carreres L, Mercey-Ressejac M, Kurma K, Ghelfi J, Fournier C, Manches O, **Chuffart F**, Rousseaux S, Minovés M, Decaens T, Lerat H, Macek Jilkova Z.
 **Cells**, 2022.
 
 [22]
 *Direct visualization of pre-protamine 2 detects protamine assembly failures and predicts ICSI success.*
-Maryam Rezaei-Gazik, Alexandra Vargas, Amir Amiri-Yekta, Anne-Laure Vitte, Arvand Akbari, Sophie Barral,
-Vahid Esmaeili, **Florent Chuffart**, Mohammad Ali Sadighi-Gilani, Yohann Coute, Poopak Eftekhari-Yazdi, Saadi Khochbin, Sophie Rousseaux and Mehdi Totonchi.
+Rezaei-Gazik M, Vargas A, Amiri-Yekta A, Vitte A-L, Akbari A, Barral S, Esmaeili V, **Chuffart F**, Sadighi-Gilani M-A, Couté Y, Eftekhari-Yazdi P, Khochbin S, Rousseaux S, Totonchi M
 **MRH**, 2022.
 
 [21]
 *AKR1B10, one of the triggers of cytokine storm in SARS-Cov2 severe Acute Respiratory Syndrome.*
-Clovis Chabert, Anne-Laure Vitte, Domenico Iuso, **Florent Chuffart**, 
-Candice Trocme, Marlyse Buisson, Pascal Poignard, Benjamin Lardinois, Régis 
-Debois, Sophie Rousseaux, Jean-Louis Pepin, Jean-Benoit Martinot, Saadi Khochbin.
+Chabert C, Vitte A-L, Iuso D, **Chuffart F**, Trocme C, Buisson M, Poignard P, Lardinois B, Debois R, Rousseaux S, Pépin J-L, Martinot J-B, Khochbin S
 **IJMS**, 2022.
 
 
@@ -119,22 +153,22 @@ Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, Meri
 
 [12]
 *PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
-Magali Richard, Clémentine Decamps, **Florent Chuffart**, Elisabeth Brambilla, Sophie Rousseaux, Saadi Khochbin, Daniel Jost.
+Richard M, Decamps C, **Chuffart F**, Brambilla E, Rousseaux S, Khochbin S, Jost D
 **PLoS Comput Biol**, 2020.
 
 [11]
 *RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.*
-Naghmeh Hoghoughi Sophie Barral Sandrine Curtet, **Florent Chuffart**, Guillaume Charbonnier, Denis Puthier, Thierry Buchou, Sophie Rousseaux, Saadi Khochbin.
+Hoghoughi N, Barral S, Curtet S, **Chuffart F**, Charbonnier G, Puthier D, Buchou T, Rousseaux S, Khochbin S
 **Cells**, 2020.
 
 [10]
 *Extracellular Vesicles From Myelodysplastic Mesenchymal Stromal Cells Induce DNA Damage and Mutagenesis of Hematopoietic Stem Cells Through miRNA Transfer.* 
-Mathieu Meunier, Audrey Guttin, Sarah Ancelet, David Laurin, Johanna Zannoni, Christine Lefebvre, Sylvie Tondeur, Virginie Persoons, Mylène Pezet, Karin Pernet-Gallay, **Florent Chuffart**, Sophie Rousseaux, Quentin Testard, Julien Thevenon, Claire Jouzier, Jean-François Deleuze, Karine Laulagnier, Rémy Sadoul, Christine Chatellard, Pierre Hainaut, Benoît Polack, Jean-Yves Cahn, Jean-Paul Issartel, Sophie Park. 
+Meunier M, Guttin A, Ancelet S, Laurin D, Zannoni J, Lefebvre C, Tondeur S, Persoons V, Pezet M, Pernet-Gallay K, **Chuffart F**, Rousseaux S, Testard Q, Thevenon J, Jouzier C, Deleuze J-F, Laulagnier K, Sadoul R, Chatellard C, Hainaut P, Polack B, Cahn J-Y, Issartel J-P, Park S
 **Leukemia**, 2020.
 
 [9]
 *Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software.*
-Clémentine Decamps, Florian Privé, Raphael Bacher, Daniel Jost, Arthur Waguet, **HADACA consortium**, Eugene Andres Houseman, Eugene Lurie, Pavlo Lutsik, Aleksandar Milosavljevic, Michael Scherer, Michael G. B. Blum Magali Richard.
+Decamps C, Privé F, Bacher R, Jost D, Waguet A, **HADACA consortium**, Houseman EA, Lurie E, Lutsik P, Milosavljevic A, Scherer M, Blum MGB, Richard M
 **BMC Bioinformatics**, 2020.
 
 [8]
@@ -248,36 +282,6 @@ Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
 
 2009: Mexico Advanced Course in Sensitivity Analysis. 11-14 May, Hyères (83), France.
 
-
-
-
-# Jobs
-
-Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
-
-September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
-
-September 2009 - August 2012: Senior Engineer position at LIP, Inria, Lyon, France. Design and implementation of a peer-to-peer grid middleware supporting petascale architecture. SPADES project (08-ANR-SEGI-025) (Servicing Petascale Architectures and DistributEd System)
-
-Janury 2008 - August 2009: Post Doctoral position at Irstea (ex-Cemagref), Clermont-Ferrand, France. Compared study, design and implementation of Individual Based Model (IBM) and Differential Equation Model (DEM). Application to predator-prey model that incorporates individual behavior of the predators. Sensitivity analysis of from model parameters, impact on model behavior. LifeGrid / PatRes project (FP6-043268) (Pattern Resilience)
-
-October 2004 - December 2007: Ph.D. position at France Telecom / University of Caen Basse-Normandie, Caen, France. Conception design and implementation of an ubiquitous services platform integrating distributed multimodal interfaces. AURORA Project (ITEA-03005)
-
-# Education
-
-2016: DU degree in statistics at University of Strasbourg,Strasbourg, France.
-
-2007: Ph.D. degree in computer science at University of Caen Basse-Normandie, Caen, France.
-
-2004: DEA (master science) in computer science, artificial intelligence and algorithm at University of Caen Basse-Normandie, Caen, France.
-
-2003: Maitrise (master’s degree) in applied Mathematics at University of Rouen, Rouen, France.
-
-2002: Licence (under graduate) in Mathematics at University of Rouen, Rouen, France.
-
-1999: DUT (two-year university degree in technology) in Chemistry at IUT (University Institute of Technology) of Rouen, Rouen, France.
-
-1997: Baccalauréat (French secondary school diploma), science major, Rouen, France.
 
 
 
