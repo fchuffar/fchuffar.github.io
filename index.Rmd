@@ -83,7 +83,7 @@ Masdoumier C, Broséus L, **Chuffart F**, François O, Guilbert A, Heude B, Khoc
 [35]
 _Mitochondrial dysfunction fuels drug resistance in adult T-cell acute lymphoblastic leukemia._
 Guo S, Bourova-Flin E, Rousseaux S, **Chuffart F**, Peng L, Jing D, Mi JQ, Khochbin S, Wang J.
-J** Transl Med**, 2025.
+**J Transl Med**, 2025.
 
 
 [34]
@@ -94,7 +94,7 @@ Vitte A, **Chuffart F**, Jacquet E, Nika E, Mousseau M, Jung I, Tabone-Eglinger 
 [33]
 *HBV and HBsAg strongly reshape the phenotype, function and metabolism of DCs according to patients’ clinical stage*.
 Dumolard L, Gerster T, **Chuffart F**, Decaens T, Durantel D, Hilleret M-N, Saas P, Jouvin-Marche E, Marche P-N, Macek Jilkova Z, Aspord C.
-**Hepatology Communications**, 2025.
+**Hep Comm**, 2025.
 
 [32]
 *Clustering of TP53 variants into functional classes correlates with cancer risk and identifies different phenotypes of the Li-Fraumeni Syndrome*.
@@ -121,11 +121,12 @@ Jacquet E, **Chuffart F**, Vitte A-L, Nika E, Mousseau M, Khochbin S, Rousseaux 
 [28]
 *Serum IGF1 is a prognostic marker for resistance to targeted therapies and a predictive marker for anti-IGF1R therapy in melanoma*.
 Castillo-Ferrer C, Marguet T, Vanwonterghem L, Erbek S, **Chuffart F**, Mouret S, Trabelsi Messai S, Gauchez A-S, Coll J-L, Charles J, Hurbin A, Martel-Frachet V.
-**Journal of Investigative Dermatology**, 2023.
+**J of Invest Dermatology**, 2023.
 
 [27]
 *Luspatercept (RAP-536) modulates oxidative stress without affecting mutation burden in myelodysplastic syndromes*.
-Meunier M, Friedrich C, Ducrot N, Zannoni J, Tondeur S, Jerraya N, Rousseaux S, **Chuffart F**, Kosmider O, Karim Z, Park S.**Ann Hematol**, 2022.
+Meunier M, Friedrich C, Ducrot N, Zannoni J, Tondeur S, Jerraya N, Rousseaux S, **Chuffart F**, Kosmider O, Karim Z, Park S.
+**Ann Hematol**, 2022.
 
 [26]
 *Chromatin-associated YTHDC1 coordinates heat-induced reprograming of gene expression.*
@@ -140,7 +141,7 @@ Lukinovic V, Hausmann S, Roth G, Oyeniran C, Ahmad T, Tsao N, Brickner J, Casano
 [24]
 *Ectopic expression of a combination of 5 genes detects high risk forms of T-cell acute lymphoblastic leukemia.*
 Peng L-J, Zhou Y-B, Geng M, Bourova-Flin E, **Chuffart F**, Zhang W-N, Wang T, Gao M-Q, Xi M-P, Cheng Z-Y, Zhang J-J, Liu Y-F, Chen B, Khochbin S, Wang J, Rousseaux S, Mi J-Q
-**BMC Genomics**, 2022.
+**BMC Gen**, 2022.
 
 [23]
 *Chronic intermittent hypoxia increases cell proliferation in hepatocellular carcinoma.*
@@ -186,7 +187,7 @@ Xi M, Guo S, Bayin C, peng L, **Chuffart F**, Bourova-Flin E, Rousseaux S, Khoch
 [14]
 *The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.*
 Bourova-Flin E, Derakhshan S, Goudarzi A, Wang T, Vitte A-L, **Chuffart F**, Khochbin S, Rousseaux S, Aminishakib P. 
-**British Journal of Cancer**, *accepted 28th May 2021*,
+**Br J of Cancer**, *accepted 28th May 2021*,
 
 [13]
 *Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.*
@@ -196,7 +197,7 @@ Rousseaux S, Seyve E, **Chuffart F**, Bourova-Flin E, Benmerad M, Charles M-A, F
 [12]
 *PenDA, a Rank-Based Method for Personalized Differential Analysis: Application to Lung Cancer.*
 Richard M, Decamps C, **Chuffart F**, Brambilla E, Rousseaux S, Khochbin S, Jost D
-**PLoS Comput Biol**, 2020.
+**PLoS Comp Biol**, 2020.
 
 [11]
 *RNA-Guided Genomic Localization of H2A.L.2 Histone Variant.*
@@ -211,7 +212,7 @@ Meunier M, Guttin A, Ancelet S, Laurin D, Zannoni J, Lefebvre C, Tondeur S, Pers
 [9]
 *Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software.*
 Decamps C, Privé F, Bacher R, Jost D, Waguet A, **HADACA consortium**, Houseman EA, Lurie E, Lutsik P, Milosavljevic A, Scherer M, Blum MGB, Richard M
-**BMC Bioinformatics**, 2020.
+**BMC Bioinf**, 2020.
 
 [8]
 *Nut Directs p300-Dependent, Genome-Wide H4 Hyperacetylation in Male Germ Cells.*
@@ -221,7 +222,7 @@ Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Bousso
 [7]
 *Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.*
 Abraham E, Rousseaux S, Agier L, Giorgis-Allemand L, Tost J, Galineau J, Hulin A, Siroux V, Vaiman D, Charles M-A, Heude B, Forhan A, Schwartz J, **Chuffart F**, Bourova-Flin E, Khochbin S, Slama R, Lepeule J.
-**Environment International**, 2018.
+**Env Int**, 2018.
 
 [6]
 *Assigning function to natural allelic variation via dynamic modeling of gene network induction.*
@@ -231,12 +232,12 @@ Richard M, **Chuffart F**, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Ent
 [5]
 *Exploiting single-cell quantitative data to map genetic variants having probabilistic effects.* 
 **Chuffart F**, Richard M, Jost D, Burny C, Duplus-Bottin H, Ohya Y, Yvert G. 
-**PLOS Genetics**, 2016.
+**PLOS Gen**, 2016.
 
 [4]
 *The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution.* 
 Filleton F, **Chuffart F**, Nagarajan M, Bottin-Duplus H, Yvert Y. 
-**Epigenetics and Chromatin**, 2015.
+**Epi&Chrom**, 2015.
 
 [3]
 *MyLabStocks: a web-application to manage molecular biology materials.*
@@ -246,12 +247,12 @@ Filleton F, **Chuffart F**, Nagarajan M, Bottin-Duplus H, Yvert Y.
 [2]
 *When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System.*
 Caron E, **Chuffart F**, Tedeschi C.
-**Future Generation Computer Systems**, 2013.
+**FGCS**, 2013.
 
 [1]
  *SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process.*
 **Chuffart F**, Dumoulin N, Faure T, Deffuant G. 
-**International Journal of Agricultural and Environmental Information Systems**, 2010.
+**Int J of Agr and Env Inf Sys**, 2010.
 
 
 
