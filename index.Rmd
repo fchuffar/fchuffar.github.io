@@ -160,37 +160,37 @@ Chabert C, Vitte A-L, Iuso D, **Chuffart F**, Trocme C, Buisson M, Poignard P, L
 
 [20]
 *DEN-Induced Rat Model Reproduces Key Features of Human Hepatocellular Carcinoma.*
-Keerthi Kurma, Olivier Manches, **Florent Chuffart**, Nathalie Sturm, Khaldoun Gharzeddine, Jianhui Zhang, Marion Mercey-Ressejac, Sophie Rousseaux, Arnaud Millet, Herve Lerat, Patrice N Marche, Zuzana Macek Jilkova and Thomas Decaens.
+Kurma K, Manches O, **Chuffart F**, Sturm N, Gharzeddine K, Zhang J, Mercey-Ressejac M, Rousseaux S, Millet A, Lerat H, Marche P, Jilkova M and Decaens T.
 **Cancers (Basel)**, 2021.
 
 [19]
 *Metabolically controlled histone H4K5 acylation/acetylation ratio drives BRD4 genomic distribution.*
-Mengqing Gao, Jin Wang, Sophie Rousseaux, Minjia Tan, Lulu Pan, Lijun Peng, Sisi Wang, Wenqian Xu, Jiayi Ren, Yuanfang Liu, Martin Spinck, Sophie Barral, Tao Wang, **Florent Chuffart**, Ekaterina Bourova-Flin, Denis Puthier, Sandrine Curtet, Lisa Bargier, Zhongyi Cheng, Heinz Neumann, Jian Li, Yingming Zhao, Jian-Qing Mi and Saadi Khochbin.
+Gao M, Wang J, Rousseaux S, Tan M, Pan L, Peng L, Wang S, Xu W, Ren J, Liu Y, Spinck M, Barral S, Wang T, **Chuffart F**, Bourova-Flin E, Puthier D, Curtet S, Bargier L, Cheng Z, Neumann H, Li J, Zhao Y, Mi J-Q and Khochbin S.
 **Cell Rep**,  2021.
 
 [18]
 *ATAD2 controls chromatin-bound HIRA turnover.*
-Tao Wang, Daniel Perazza, Fayçal Boussouar, Matteo Cattaneo, Alexandre Bougdour, **Florent Chuffart**, Sophie Barral, Alexandra Vargas, Ariadni Liakopoulou, Denis Puthier, Lisa Bargier, Yuichi Morozumi, Mahya Jamshidikia, Isabel Garcia-Saez, Carlo Petosa, Sophie Rousseaux, André Verdel, Saadi Khochbin. 
+Wang T, Perazza D, Boussouar F, Cattaneo M, Bougdour A, **Chuffart F**, Barral S, Vargas A, Liakopoulou A, Puthier D, Bargier L, Morozumi Y, Jamshidikia M, Garcia-Saez I, Petosa C, Rousseaux S, Verdel A, Khochbin S. 
 **Life Sci Alliance**, 2021.
 
 [17]
 *CCM2 deficient endothelial cells undergo a mechano-dependent reprogramming into senescence associated secretory phenotype used to recruit endothelial and immune cells.*
-Daphné Raphaelle Vannier, Apeksha Shapeti, **Florent Chuffart**, Emmanuelle Planus, Sandra Manet, Paul Rivier, Olivier Destaing, Corinne Albiges-Rizo, Hans Van Oosterwyck, Eva Faurobert.
+Raphaelle Vannier D, Shapeti A, **Chuffart F**, Planus E, Manet S, Rivier P, Destaing O, Albiges-Rizo C, Van Oosterwyck H, Faurobert E.
 **Angiogenesis** 2021.
 
 [15]
 *Chidamide inhibits the NOTCH1-MYC signaling axis in T-cell acute lymphoblastic leukemia.*
-Mengping Xi, Shanshan Guo, Caicike Bayin, Lijun peng, **Florent Chuffart**, Ekaterina Bourova-Flin, Sophie Rousseaux, Saadi Khochbin, Jianqing Mi, Jin Wang.
+Xi M, Guo S, Bayin C, peng L, **Chuffart F**, Bourova-Flin E, Rousseaux S, Khochbin S, Mi J, Wang J.
 **Frontiers in Medicine**, *under Revision*,
 
 [14]
 *The combined detection of Amphiregulin, Cyclin A1 and DDX20/Gemin3 expression predicts aggressive forms of Oral Squamous Cell Carcinoma.*
-Ekaterina Bourova-Flin, Samira Derakhshan, Afsaneh Goudarzi, Tao Wang, Anne-Laure Vitte, **Florent Chuffart**, Saadi Khochbin, Sophie Rousseaux, Pouyan Aminishakib. 
+Bourova-Flin E, Derakhshan S, Goudarzi A, Wang T, Vitte A-L, **Chuffart F**, Khochbin S, Rousseaux S, Aminishakib P. 
 **British Journal of Cancer**, *accepted 28th May 2021*,
 
 [13]
 *Immediate and durable effects of maternal tobacco consumption alter placental DNA methylation in enhancer and imprinted gene-containing regions.*
-Sophie Rousseaux, Emie Seyve, **Florent Chuffart**, Ekaterina Bourova-Flin, Meriem Benmerad, Marie-Aline Charles, Anne Forhan, Barbara Heude, Valérie Siroux, Remy Slama, Jorg Tost, Daniel Vaiman, Saadi Khochbin, Johanna Lepeule, EDEN Mother-Child Cohort Study Group.
+Rousseaux S, Seyve E, **Chuffart F**, Bourova-Flin E, Benmerad M, Charles M-A, Forhan A, Heude B, Siroux V, Slama R, Tost J, Vaiman D, Khochbin S, Lepeule J, EDEN Mother-Child Cohort Study Group.
 **BMC Med**, 2020.
 
 [12]
@@ -220,7 +220,7 @@ Shiota H, Barral S, Buchou T, Tan M, Couté Y, Charbonnier G, Reynoird N, Bousso
 
 [7]
 *Pregnancy exposure to atmospheric pollution and meteorological conditions and placental DNA methylation.*
-Emilie Abraham, Sophie Rousseaux, Lydiane Agier, Lise Giorgis-Allemand, Jörg Tost, Julien Galineau, Agnès Hulin, Valérie Siroux, Daniel Vaiman, Marie-Aline Charles, Barbara Heude, Anne Forhan, Joel Schwartz, **Florent Chuffart**, Ekaterina Bourova-Flin, Saadi Khochbin, Rémy Slama, Johanna Lepeule.
+Abraham E, Rousseaux S, Agier L, Giorgis-Allemand L, Tost J, Galineau J, Hulin A, Siroux V, Vaiman D, Charles M-A, Heude B, Forhan A, Schwartz J, **Chuffart F**, Bourova-Flin E, Khochbin S, Slama R, Lepeule J.
 **Environment International**, 2018.
 
 [6]
@@ -235,22 +235,22 @@ Richard M, **Chuffart F**, Duplus-Bottin H, Pouyet F, Spichty M, Fulcrand E, Ent
 
 [4]
 *The complex pattern of epigenomic variation between natural yeast strains at single-nucleosome resolution.* 
-Fabien Filleton, **Florent Chuffart**, Muniyandi Nagarajan, Helene Bottin-Duplus, Gael Yvert. 
+Filleton F, **Chuffart F**, Nagarajan M, Bottin-Duplus H, Yvert Y. 
 **Epigenetics and Chromatin**, 2015.
 
 [3]
 *MyLabStocks: a web-application to manage molecular biology materials.*
-**Florent Chuffart** and Gael Yvert. 
+**Chuffart F** and Yvert G. 
 **Yeast**, 2014. 
 
 [2]
 *When Self-Stabilization Meets Real Platforms: an Experimental Study of a Peer-to-Peer Service Discovery System.*
-Eddy Caron, **Florent Chuffart**, Cédric Tedeschi.
+Caron E, **Chuffart F**, Tedeschi C.
 **Future Generation Computer Systems**, 2013.
 
 [1]
  *SimExplorer : Programming Experimental Designs on Models and Managing Quality of Modelling Process.*
-**Florent Chuffart**, Nicolas Dumoulin, Thierry Faure, Guillaume Deffuant. 
+**Chuffart F**, Dumoulin N, Faure T, Deffuant G. 
 **International Journal of Agricultural and Environmental Information Systems**, 2010.
 
 
