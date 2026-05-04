@@ -44,6 +44,48 @@ October 2004 - December 2007: Ph.D. position at France Telecom / University of C
 
 # Research Publications
 
+
+
+[41]
+_ATAD2 mediates chromatin-bound histone chaperone turnover._
+Liakopoulou A, Boussouar F, Perazza D, Barral S, Lambert E, Wang T, **Chuffart F**, Bourova-Flin E, Gard C, Puthier D, Rousseaux S, Arnoult C, Verdel A, Khochbin S.
+**Elife**, 2026.
+
+[40]
+_KDM7B-mediated demethylation of RNF113A regulates small cell lung cancer sensitivity to alkylation damage._
+Ahmad T, Yang X, Foucher AE, Ren L, Tsao N, Flores N, Wan J, Belmudes L, Dubiez E, Bhowmik MC, Vayr J, Hausmann S, **Chuffart F**, Lu X, Blanchet S, Chasan T, Boussouar F, Couté Y, Mosammaparast N, Lan F, Kadlec J, Mazur PK, Reynoird N.
+**bioRxiv **[Preprint], 2026.
+
+
+[39]
+_A robust workflow to benchmark deconvolution of multi-omic data._
+Amblard E, Bertrand V, Barbot H, Martin Peña L, Karkar S, **Chuffart F**, Ayadi M, Baurès A, Armenoult L, Kermezli Y, Causeur D, Cros J, Blum Y, Richard M.
+**Genome Biol**, 2025.
+
+
+[38]
+_Environmental exposure to endocrine disruptors induces insulin resistance and hepatic inflammation in adult male rats, with partial transmission across subsequent generations._
+Darracq-Ghitalla-Ciock M, Rajkumari N, Veyrenc S, **Chuffart F**, Attia S, Hiriart-Bryant E, Vial G, Rangarajan S, Tubbs E, Raveton M, Fontaine E, Guillemain I, Dubouchaud H, Schlattner U, Tokarska-Schlattner M, Couturier K, Reynaud S.
+**Environ Pollut**, 2025.
+
+
+[37]
+_Cardiac Sympathetic Denervation Mitigated Ischemic Cardiomyopathy Progression in a Rat Model of Sleep Apnea._
+Détrait M, Gaucher J, Billoir E, Bouyon S, Lemarié E, Paradis S, Vial G, **Chuffart F**, Pasqualin C, Hubert F, Rochais F, Doutreleau S, Pépin JL, Godin-Ribuot D, Belaidi E, Arnaud C.
+**J Am Heart Assoc**, 2025.
+
+
+[36]
+_Immediate and durable effects of maternal tobacco consumption on placental DNA methylation: a replication and discovery study._
+Masdoumier C, Broséus L, **Chuffart F**, François O, Guilbert A, Heude B, Khochbin S, Rousseaux S, Seyve E, Tafflet M, Tost J, Nakamura A, Lepeule J.
+**Environ Epigenet**, 2025.
+
+[35]
+_Mitochondrial dysfunction fuels drug resistance in adult T-cell acute lymphoblastic leukemia._
+Guo S, Bourova-Flin E, Rousseaux S, **Chuffart F**, Peng L, Jing D, Mi JQ, Khochbin S, Wang J.
+J** Transl Med**, 2025.
+
+
 [34]
 *Discovery of epigenetically silenced tumour suppressor genes in aggressive breast cancer through a computational approach*. 
 Vitte A, **Chuffart F**, Jacquet E, Nika E, Mousseau M, Jung I, Tabone-Eglinger S, Bachelot T, Rousseaux S, Khochbin S, Bourova-Flin E. 
