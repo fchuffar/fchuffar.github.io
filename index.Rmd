@@ -11,6 +11,8 @@ fax: +33 (0)4 76 54 94 25
 
 # Jobs
 
+Since January 2025: Bioinformatics Technical Lead at Epinomics Platform, INSERM/IAB, Grenoble.
+
 Since December 2015: Research Engineer (IR) at IAB, INSERM, Grenoble, France. Data analysis and modelling of biological systems.
 
 September 2012 - November 2015: Post Doctoral position at LBMC, CNRS, Lyon, France. Dynamic simulation of a gene regulatory network in various wild genetic backgrounds of yeast. project SiGHT (ERC-StG2011-281359) (Systems Genetics of Heritable variaTions)
